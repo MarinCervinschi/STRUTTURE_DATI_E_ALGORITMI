@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CalcNun:binary_watch.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(bool (&amp;) [11]) *vccur">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ValidTimesRec:binary_watch.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(bool (&amp;) [11]) *vccur">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
