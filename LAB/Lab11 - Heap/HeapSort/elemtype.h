@@ -32,7 +32,7 @@ int ElemCompare(const ElemType *e1, const ElemType *e2);
 @param[in] e Puntatore all'elemento da copiare. Il valore contenuto in `e` non 
              viene modificato.
 
-@return Copia dell'elemento `e`.
+return Copia dell'elemento `e`.
 */
 ElemType ElemCopy(const ElemType *e);
 
@@ -41,7 +41,7 @@ ElemType ElemCopy(const ElemType *e);
 @param[in] e1 Puntatore al primo elemento da scambiare.
 @param[in] e2 Puntatore al secondo elemento da scambiare.
 
-@return Non ci sono valori di ritorno.
+return Non ci sono valori di ritorno.
 */
 void ElemSwap(ElemType *e1, ElemType *e2);
 
@@ -50,7 +50,7 @@ void ElemSwap(ElemType *e1, ElemType *e2);
 
 @param[in] e Puntatore all'elemento di cui liberare la memoria.
 
-@return Non ci sono valori di ritorno.
+return Non ci sono valori di ritorno.
 */
 void ElemDelete(ElemType *e);
 
@@ -59,7 +59,7 @@ void ElemDelete(ElemType *e);
 @param[in] f `FILE *` da cui leggere un elemento.
 @param[out] e Elemento letto da file.
 
-@return Se la lettura va a buon fine la funzione ritorna `1`, altrimenti ritorna `0`
+return Se la lettura va a buon fine la funzione ritorna `1`, altrimenti ritorna `0`
         in caso di errore di corrispondenza, errore di lettura o fine del file. Se 
         si verifica un errore di lettura o si raggiunge la fine del file prima che 
         qualunque dato possa essere letto correttamente la funzione ritorna EOF, 
@@ -71,7 +71,7 @@ int ElemRead(FILE *f, ElemType *e);
 
 @param[out] e Elemento letto da `stdin`.
 
-@return Se la lettura va a buon fine la funzione ritorna `1`, altrimenti ritorna `0`
+return Se la lettura va a buon fine la funzione ritorna `1`, altrimenti ritorna `0`
         in caso di errore di corrispondenza, errore di lettura o fine del file. Se 
         si verifica un errore di lettura o si raggiunge la fine del file prima che 
         qualunque dato possa essere letto correttamente la funzione ritorna EOF, 
@@ -85,7 +85,7 @@ int ElemReadStdin(ElemType *e);
              e non viene modificato.
 @param[in] f `FILE *` su cui stampare l'elemento.
 
-@return Non ci sono valori di ritorno.
+return Non ci sono valori di ritorno.
 */
 void ElemWrite(const ElemType *e, FILE *f);
 
@@ -94,7 +94,7 @@ void ElemWrite(const ElemType *e, FILE *f);
 @param[in] e Puntatore all'elemento da stampare su `stdout`. Il valore
              contenuto in `e` non viene modificato.
 
-@return Non ci sono valori di ritorno.
+return Non ci sono valori di ritorno.
 */
 void ElemWriteStdout(const ElemType *e);
 
