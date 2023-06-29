@@ -48,8 +48,5 @@ Item* Reverse(Item *list, int right){
         }
     }
     
-    
-    
-    
     return list;
 }
