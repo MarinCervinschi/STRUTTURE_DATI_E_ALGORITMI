@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GolaCrestaRec:gola_cresta.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int (&amp;) [3]) *vccur">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
