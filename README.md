@@ -1,4 +1,5 @@
-# Strutture_dati_e_algoritmi
+# STRUTTURE DATI E ALGORITMI
+
  by Maurizio Vincini, Federico Bolelli
 
 
