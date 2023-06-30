@@ -5,7 +5,7 @@ int main(void) {
   
     int g[] = { 2,3,4,6};
     int ret = 0;
-    ret = BinarySearch(NULL, 4, 5);
+    ret = BinarySearch(g, 4, 5);
     if(ret == -1){
         printf("Error!! -> Il numero cercato non appartiene al vettore\n");
         return 0;
