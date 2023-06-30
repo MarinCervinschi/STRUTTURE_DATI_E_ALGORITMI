@@ -26,7 +26,7 @@ int Rest(const Item *i1, const Item *i2){
     if(ret < 10){
         return 0;
     }
-    while (ret > 10) {
+    while (ret >= 10) {
         ret /= 10;
     }
     
@@ -82,11 +82,17 @@ Item *DListSum(const Item *i1, const Item *i2){
         if(k < 10){
             ret = DListInsertHead(&k, ret);
             k = Rest(i1_copy, i2_copy);
+            if ( k != 0 && (!i1_copy->next && !i2_copy->next) ) {
+                ret = DListInsertHead(&k, ret);
+            }
         }else{
             int l = k /10;
             k %= 10;
             ret = DListInsertHead(&k, ret);
             k = l;
+            if ( k != 0 && (!i1_copy->next && !i2_copy->next) ) {
+                ret = DListInsertHead(&k, ret);
+            }
         }
         
         if(i1_copy != NULL){
@@ -96,7 +102,6 @@ Item *DListSum(const Item *i1, const Item *i2){
             i2_copy = i2_copy->next;
         }
     }
-    
     
     return ret;
 }
