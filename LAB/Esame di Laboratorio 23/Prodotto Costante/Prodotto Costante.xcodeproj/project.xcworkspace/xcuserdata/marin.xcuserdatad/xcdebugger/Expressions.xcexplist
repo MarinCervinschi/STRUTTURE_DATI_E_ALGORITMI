@@ -11,17 +11,6 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "RisolviProdottoRec:prodotto_costante.c">
-         <PersistentStrings>
-            <PersistentString
-               value = "(bool (&amp;) [9]) *vccur">
-            </PersistentString>
-            <PersistentString
-               value = "(int (&amp;) [9]) *vector">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
          contextName = "verifica:prodotto_costante.c">
          <PersistentStrings>
             <PersistentString
@@ -29,6 +18,25 @@
             </PersistentString>
             <PersistentString
                value = "(int (&amp;) [9]) *vector">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RisolviProdottoRec:prodotto_costante.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int (&amp;) [9]) *v_curr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RisolviProdotto:prodotto_costante.c">
+      </ContextState>
+      <ContextState
+         contextName = "backtrack:prodotto_costante.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int (&amp;) [9]) *grid">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
