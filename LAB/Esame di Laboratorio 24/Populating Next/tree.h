@@ -21,6 +21,7 @@ struct Node {
     ElemType value; /*!< Valore associato al `Node`. */
     struct Node *left; /*!< Puntatore al figlio sinistro. */
     struct Node *right; /*!< Puntatore al figlio destro. */
+    struct Node* next; /*!< Puntatore al nodo successivo. */
 };
 /** @brief Definizione di un nome alternativo per `struct Node`. */
 typedef struct Node Node;

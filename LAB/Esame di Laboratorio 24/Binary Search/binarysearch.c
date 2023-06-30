@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdlib.h>
 void BinarySearchRec(const int *v, size_t v_size, int value, int i, int *pos, int size){
     if(v_size == 0 || i == size){
         return;
@@ -19,7 +19,7 @@ void BinarySearchRec(const int *v, size_t v_size, int value, int i, int *pos, in
 int BinarySearch(const int *v, size_t v_size, int value){
     
     int pos = -1;
-    if(v[v_size-1] < value || !v){
+    if(!v|| v[v_size-1] < value ){
         return pos;
     }
     BinarySearchRec(v, v_size, value,0, &pos, (int)v_size);
