@@ -113,7 +113,7 @@ char* SolveSuperstring(const char **v, size_t v_size) {
     if (v == NULL || v_size < 1) {
             return NULL;
         }
-    char *res = calloc(255, sizeof(char));
+    char *res;
     bool *vccur = calloc(v_size, sizeof(bool));
     int over = 0, over_max = 0;
     bool *is_in = calloc(v_size, sizeof(bool));
@@ -140,7 +140,6 @@ char* SolveSuperstring(const char **v, size_t v_size) {
         }
     }
  
-    res = realloc(res, (strlen(res) + 1) * sizeof(char));
 
     free(vccur);
     free(is_in);
