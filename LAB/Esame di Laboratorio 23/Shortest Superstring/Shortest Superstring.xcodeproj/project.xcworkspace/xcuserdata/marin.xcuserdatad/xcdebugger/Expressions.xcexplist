@@ -6,10 +6,13 @@
          contextName = "BackTrack:superstring.c">
          <PersistentStrings>
             <PersistentString
-               value = "(bool (&amp;) [4]) **is_in">
+               value = "(bool (&amp;) [6]) *vccur">
             </PersistentString>
             <PersistentString
-               value = "(bool (&amp;) [4]) *vccur">
+               value = "(bool (&amp;) [4]) **best">
+            </PersistentString>
+            <PersistentString
+               value = "(bool (&amp;) [6]) **is_in">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -17,7 +20,10 @@
          contextName = "SolveSuperstring:superstring.c">
          <PersistentStrings>
             <PersistentString
-               value = "(bool (&amp;) [4]) *is_in">
+               value = "(bool (&amp;) [6]) *best">
+            </PersistentString>
+            <PersistentString
+               value = "(bool (&amp;) [6]) *is_in">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
