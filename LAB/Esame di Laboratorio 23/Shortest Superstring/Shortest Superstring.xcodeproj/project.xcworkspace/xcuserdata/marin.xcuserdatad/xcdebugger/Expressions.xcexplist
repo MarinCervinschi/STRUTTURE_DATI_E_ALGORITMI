@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "BackTrack:superstring.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(bool (&amp;) [4]) **is_in">
+            </PersistentString>
+            <PersistentString
+               value = "(bool (&amp;) [4]) *vccur">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SolveSuperstring:superstring.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(bool (&amp;) [4]) *is_in">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

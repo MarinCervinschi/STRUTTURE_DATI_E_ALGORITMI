@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F11C3C90-906E-4E87-9DC6-07C55CD2EAEA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D51C198F-715F-48EC-B74A-D8FA8399F590"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "invert.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "Invert(t)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BD501C0-0F35-41A4-8E47-EEB08E7A3B99"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "invert.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "Invert(t)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "1BD501C0-0F35-41A4-8E47-EEB08E7A3B99 - cc6e51efe67907f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Invert"
+                  moduleName = "Invert Tree"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2023/Invert%20Tree/invert.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "1BD501C0-0F35-41A4-8E47-EEB08E7A3B99 - cc6e51efe679064f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Invert"
+                  moduleName = "Invert Tree"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2023/Invert%20Tree/invert.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "1BD501C0-0F35-41A4-8E47-EEB08E7A3B99 - cc6e51efe67906d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Invert"
+                  moduleName = "Invert Tree"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2023/Invert%20Tree/invert.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47639E1B-E461-424D-A175-E6E07B84646C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invert Tree/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "main()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "47639E1B-E461-424D-A175-E6E07B84646C - 41dbd7e96bc0be18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Invert Tree"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2023/Invert%20Tree/Invert%20Tree/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "47639E1B-E461-424D-A175-E6E07B84646C - 41dbd7e96bc0bffb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Invert Tree"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2023/Invert%20Tree/Invert%20Tree/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
