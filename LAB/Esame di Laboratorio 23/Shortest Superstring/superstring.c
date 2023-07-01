@@ -1,6 +1,18 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdbool.h>
+
+// Verifica se tutti i valori in un array booleano sono true
+bool verifica(bool *v, size_t n) {
+    for (size_t i = 0; i != n; ++i) {
+        if (!v[i]) {
+            return false;
+        }
+    }
+    return true;
+}
+
+// Funzione per calcolare l'overlap tra due stringhe e restituire la stringa risultante
 static char* Overlap(const char* str1, const char* str2, int* overlapping) {
     const int len1 = (int)strlen(str1);
     const int len2 = (int)strlen(str2);
@@ -46,53 +58,84 @@ static char* Overlap(const char* str1, const char* str2, int* overlapping) {
     *overlapping = maxOverlap;
     return res;
 }
-char* SolveSuperstringRec(const char** v, size_t v_size, bool* used, char* res, int lvl) {
-    if (lvl == (int)v_size) {
-        return res;
+
+// Funzione di backtracking per trovare la sovrapposizione massima tra le stringhe
+void BackTrack(const char **v, size_t v_size, bool *vccur, size_t i, char **res, int* overlapping, int *ovr_max, bool **is_in, bool **best, size_t n) {
+    if (i == n) {
+        size_t lvl[n];
+        for (size_t j = 0, h = 0; j != v_size; ++j) {
+            if (vccur[j]) {
+                lvl[h] = j;
+                ++h;
+            }
+        }
+        if(n == 2){
+            Overlap(v[lvl[0]], v[lvl[1]], overlapping);
+            if (*overlapping >= *ovr_max) {
+                *res = Overlap(v[lvl[0]], v[lvl[1]], overlapping);
+                for (size_t j = 0; j != v_size; ++j) {
+                    is_in[0][j] = vccur[j];
+                }
+                *ovr_max = *overlapping;
+            }
+        }else{
+            Overlap(*res, v[lvl[0]], overlapping);
+            if (*overlapping >= *ovr_max) {
+                *res = Overlap(*res, v[lvl[0]], overlapping);
+                for (size_t j = 0; j != v_size; ++j) {
+                    is_in[0][j] = vccur[j];
+                }
+                *ovr_max = *overlapping;
+            }
+        }
+        return;
     }
-    int max = -1;
-    int tmp = 0;
-    int str = 0;
-    for (int i = 0; i < (int)v_size; i++) {
-        if (!used[i]) {
-            Overlap(res, v[i], &tmp);
-            if (tmp > max) {
-                max = tmp;
-                str = i;
+    
+    for (size_t j = 0; j != v_size; ++j) {
+        if (!vccur[j]) {
+            if (!best[0][j]) {
+                vccur[j] = true;
+                BackTrack(v, v_size, vccur, i+1, res, overlapping, ovr_max, is_in, best, n);
+                vccur[j] = false;
             }
         }
     }
-    if (max != -1) {
-        res = Overlap(res, v[str], &tmp);
-        used[str] = true;
-        return SolveSuperstringRec(v, v_size, used, res, lvl + 1);
-    }
-    return res;
 }
-char* SolveSuperstring(const char** v, size_t v_size) {
+
+// Funzione principale per risolvere il problema della sovrapposizione massima delle stringhe
+char* SolveSuperstring(const char **v, size_t v_size) {
     if (v == NULL || v_size < 1) {
         return NULL;
     }
-    bool* used = calloc(v_size, sizeof(bool));
-    int max = -1;
-    int tmp = 0;
-    int str1 = 0;
-    int str2 = 1;
-    for (int i = 0; i < (int)v_size; i++) {
-        for (int j = 1; j < (int)v_size; j++) {
-            Overlap(v[i], v[j], &tmp);
-            if (tmp > max&& i<j) {
-                max = tmp;
-                str1 = i;
-                str2 = j;
+    char *res;
+    bool *vccur = calloc(v_size, sizeof(bool));
+    int over = 0, over_max = 0;
+    bool *is_in = calloc(v_size, sizeof(bool));
+    bool *best = calloc(v_size, sizeof(bool));
+    size_t l = 0;
+    BackTrack(v, v_size, vccur, 0, &res, &over, &over_max, &is_in, &best, 2);
+    over = 0;
+    over_max = 0;
+    ++l;
+    for (size_t j = 0; j != v_size; ++j) {
+        if (!best[j]) {
+            best[j] = is_in[j];
+        }
+    }
+    while (!verifica(best, v_size) && l < v_size) {
+        BackTrack(v, v_size, vccur, 0, &res, &over, &over_max, &is_in, &best, 1);
+        over = 0;
+        over_max = 0;
+        ++l;
+        for (size_t j = 0; j != v_size; ++j) {
+            if (!best[j]) {
+                best[j] = is_in[j];
             }
         }
     }
 
-    used[str1] = true;
-    used[str2] = true;
-    char* res = Overlap(v[str1], v[str2], &tmp);
-    res = SolveSuperstringRec(v, v_size, used, res, 2);
-    free(used);
+    free(vccur);
+    free(is_in);
+    free(best);
     return res;
 }
