@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E6ECB707-9D1A-4FF1-913E-DF20B74E2BDE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13CBEC55-FAF5-4ACE-B61F-6EB85A37CB7C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "monete.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "CombinaMonete(b, m, m_size)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "13CBEC55-FAF5-4ACE-B61F-6EB85A37CB7C - e14a61810d59a649"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CombinaMonete"
+                  moduleName = "Monete"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2021/Monete/monete.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "13CBEC55-FAF5-4ACE-B61F-6EB85A37CB7C - e14a61810d59a66a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CombinaMonete"
+                  moduleName = "Monete"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2021/Monete/monete.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "13CBEC55-FAF5-4ACE-B61F-6EB85A37CB7C - e14a61810d59a687"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CombinaMonete"
+                  moduleName = "Monete"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2021/Monete/monete.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "13CBEC55-FAF5-4ACE-B61F-6EB85A37CB7C - e14a61810d59a6c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CombinaMonete"
+                  moduleName = "Monete"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2021/Monete/monete.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "13CBEC55-FAF5-4ACE-B61F-6EB85A37CB7C - e14a61810d59a7cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CombinaMonete"
+                  moduleName = "Monete"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2021/Monete/monete.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94AA4979-402E-4D04-9534-824014971A82"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "monete.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "CombinaMoneteRec(b, m, m_size, n_sol, count, vccur, sum, v)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "94AA4979-402E-4D04-9534-824014971A82 - 91f0d7c2daeea093"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CombinaMoneteRec"
+                  moduleName = "Monete"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2021/Monete/monete.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "94AA4979-402E-4D04-9534-824014971A82 - 91f0d7c2daeea093"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CombinaMoneteRec"
+                  moduleName = "Monete"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2021/Monete/monete.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "94AA4979-402E-4D04-9534-824014971A82 - 91f0d7c2daeea093"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CombinaMoneteRec"
+                  moduleName = "Monete"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2021/Monete/monete.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FA93567-F480-4157-B568-74210B89D7F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "monete.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "CombinaMoneteRec(b, m, m_size, n_sol, count, vccur, sum, v)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
