@@ -6,9 +6,12 @@
          contextName = "CombinaMoneteRec:monete.c">
          <PersistentStrings>
             <PersistentString
-               value = "(int (&amp;) [6]) *vccur">
+               value = "(int (&amp;) [6]) *v">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ConfrontVector:monete.c">
       </ContextState>
       <ContextState
          contextName = "verifica:monete.c">
