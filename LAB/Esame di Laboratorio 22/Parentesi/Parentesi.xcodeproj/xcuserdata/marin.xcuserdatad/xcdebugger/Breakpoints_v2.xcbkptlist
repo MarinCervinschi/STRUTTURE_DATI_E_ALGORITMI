@@ -77,8 +77,8 @@
             filePath = "parentesi.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "Parentesi(n)"
             landmarkType = "9">
             <Locations>

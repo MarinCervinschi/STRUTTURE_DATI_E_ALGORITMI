@@ -2,12 +2,12 @@
 #include <stdbool.h>
 #include <stdlib.h>
 bool verifica(int n, char *vccur){
+    if(vccur[0] == ')' || vccur[n*2-1] == '('){
+        return false;
+    }
     int count = 0;
     bool *k = calloc(n*2, sizeof(bool));
     for (int i = 0; i != n*2-1; ++i) {
-        if(vccur[0] == ')' || vccur[n*2-1] == '('){
-            return false;
-        }
         if(vccur[i] == '('){
             for (int j = i+1; j != n*2; ++j){
                 if(vccur[j] == ')' && !k[j]){
@@ -50,8 +50,11 @@ static void ParentesiRec(int n, int count, int *n_sol, char *vccur){
 }
 
 int Parentesi(int n){
-    if(n <= 0){
+    if(n < 0){
         return -1;
+    }
+    if(n == 0){
+        return 0;
     }
     
     char *vccur = calloc(n*2, sizeof(char));
