@@ -1,6 +1,7 @@
 #include "list.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "remove.h"
 Item *ListLoad(const char *filename) {
     FILE *f;
     f = fopen(filename, "r");
@@ -23,13 +24,25 @@ Item *ListLoad(const char *filename) {
 }
  
 int main(void) {
-    Item *list = ListLoad("data.txt");
- 
-    ListWriteStdout(list);
-
-
-    ListDelete(list);
-    
+    {
+        Item *list = ListLoad("data1.txt");
+        
+        ListWriteStdout(list);
+        
+        RemoveDuplicates(list);
+        ListWriteStdout(list);
+        ListDelete(list);
+    }
+    printf("\n");
+    {
+        Item *list = ListLoad("data.txt");
+        
+        ListWriteStdout(list);
+        
+        RemoveDuplicates(list);
+        ListWriteStdout(list);
+        ListDelete(list);
+    }
    
     return EXIT_SUCCESS;
 }

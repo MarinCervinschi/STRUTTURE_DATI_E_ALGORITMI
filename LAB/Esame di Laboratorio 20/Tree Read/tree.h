@@ -108,7 +108,7 @@ bool TreeIsLeaf(const Node *n);
 
 @param[in] n Albero di cui liberare la memoria. Può essere un albero vuoto (`NULL`).
 
-@return Non ci sono valori di ritorno.
+@rurn Non ci sono valori di ritorno.
 */
 void TreeDelete(Node *n);
 
@@ -127,7 +127,7 @@ void TreeDelete(Node *n);
             essere vuoto.
 @param[in] f `FILE *` su cui stampare l'albero.
 
-@return Non ci sono valori di ritorno.
+@retn Non ci sono valori di ritorno.
 */
 void TreeWritePreOrder(const Node *n, FILE *f);
 
@@ -141,7 +141,7 @@ void TreeWritePreOrder(const Node *n, FILE *f);
 @param[in] n Albero da stampare su `stdout`. L'albero non viene modificato e 
             può essere vuoto.
 
-@return Non ci sono valori di ritorno.
+@rern Non ci sono valori di ritorno.
 */
 void TreeWriteStdoutPreOrder(const Node *n);
 
@@ -156,7 +156,7 @@ void TreeWriteStdoutPreOrder(const Node *n);
             essere vuoto.
 @param[in] f `FILE *` su cui stampare l'albero.
 
-@return Non ci sono valori di ritorno.
+etun Non ci sono valori di ritorno.
 */
 void TreeWriteInOrder(const Node *n, FILE *f);
 
@@ -170,7 +170,7 @@ void TreeWriteInOrder(const Node *n, FILE *f);
 @param[in] n Albero da stampare su `stdout`. L'albero non viene modificato e può
             essere vuoto.
 
-@return Non ci sono valori di ritorno.
+eturn Non ci sono valori di ritorno.
 */
 void TreeWriteStdoutInOrder(const Node *n);
 
@@ -185,7 +185,7 @@ void TreeWriteStdoutInOrder(const Node *n);
             essere vuoto.
 @param[in] f `FILE *` su cui stampare l'albero.
 
-@return Non ci sono valori di ritorno.
+eturn Non ci sono valori di ritorno.
 */
 void TreeWritePostOrder(const Node *n, FILE *f);
 
@@ -199,7 +199,7 @@ void TreeWritePostOrder(const Node *n, FILE *f);
 @param[in] n Albero da stampare su `stdout`. L'albero non viene modificato e può
             essere vuoto.
 
-@return Non ci sono valori di ritorno.
+urn Non ci sono valori di ritorno.
 */
 void TreeWriteStdoutPostOrder(const Node *n);
 

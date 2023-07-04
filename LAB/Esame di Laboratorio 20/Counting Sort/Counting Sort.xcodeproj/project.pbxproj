@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C37628B2A543E060089E64F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C37628A2A543E060089E64F /* main.c */; };
+		9C3762A32A5474A50089E64F /* countingsort.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C3762A22A5474A50089E64F /* countingsort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		9C3762872A543E060089E64F /* Counting Sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Counting Sort"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C37628A2A543E060089E64F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9C3762A22A5474A50089E64F /* countingsort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = countingsort.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		9C37627E2A543E060089E64F = {
 			isa = PBXGroup;
 			children = (
+				9C3762A22A5474A50089E64F /* countingsort.c */,
 				9C3762892A543E060089E64F /* Counting Sort */,
 				9C3762882A543E060089E64F /* Products */,
 			);
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C3762A32A5474A50089E64F /* countingsort.c in Sources */,
 				9C37628B2A543E060089E64F /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

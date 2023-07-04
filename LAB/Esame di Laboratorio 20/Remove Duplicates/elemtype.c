@@ -29,7 +29,7 @@ void ElemDelete(ElemType *e) {
 }
 
 int ElemRead(FILE *f, ElemType *e) {
-    return fscanf(f, "%c", e);
+    return fscanf(f, "%d", e);
 }
 
 int ElemReadStdin(ElemType *e) {
@@ -37,7 +37,7 @@ int ElemReadStdin(ElemType *e) {
 }
 
 void ElemWrite(const ElemType *e, FILE *f) {
-    fprintf(f, "%c", *e);
+    fprintf(f, "%d", *e);
 }
 
 void ElemWriteStdout(const ElemType *e) {
