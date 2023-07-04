@@ -4,10 +4,7 @@
 #include <string.h>
 void PasswordRec(const char *str, int n, int *n_sol, char *vccur, int count){
     if(count == n){
-        for (int i = 0; i != n; ++i) {
-            printf("%c", vccur[i]);
-        }
-        printf("\n");
+        printf("%s\n", vccur);
         ++(*n_sol);
         return;
     }
