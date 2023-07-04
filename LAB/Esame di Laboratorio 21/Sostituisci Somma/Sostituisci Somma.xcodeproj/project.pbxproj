@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C37622D2A5411CD0089E64F /* sostituisci_somma.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C37622C2A5411CD0089E64F /* sostituisci_somma.c */; };
 		9C66D4F82A5327FA00848971 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C66D4F72A5327FA00848971 /* main.c */; };
 		9C66D5022A53282C00848971 /* tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C66D4FF2A53282C00848971 /* tree.c */; };
 		9C66D5032A53282C00848971 /* elemtype.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C66D5012A53282C00848971 /* elemtype.c */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9C37622C2A5411CD0089E64F /* sostituisci_somma.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sostituisci_somma.c; sourceTree = "<group>"; };
 		9C66D4F42A5327FA00848971 /* Sostituisci Somma */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sostituisci Somma"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C66D4F72A5327FA00848971 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		9C66D4FE2A53282C00848971 /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 		9C66D4EB2A5327FA00848971 = {
 			isa = PBXGroup;
 			children = (
+				9C37622C2A5411CD0089E64F /* sostituisci_somma.c */,
 				9C66D5012A53282C00848971 /* elemtype.c */,
 				9C66D5002A53282C00848971 /* elemtype.h */,
 				9C66D4FF2A53282C00848971 /* tree.c */,
@@ -132,6 +135,7 @@
 				9C66D4F82A5327FA00848971 /* main.c in Sources */,
 				9C66D5032A53282C00848971 /* elemtype.c in Sources */,
 				9C66D5022A53282C00848971 /* tree.c in Sources */,
+				9C37622D2A5411CD0089E64F /* sostituisci_somma.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
