@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C3762312A542DBE0089E64F /* kth_least.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C3762302A542DBE0089E64F /* kth_least.c */; };
 		9C66D5112A53284500848971 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C66D5102A53284500848971 /* main.c */; };
 		9C66D51B2A53287500848971 /* elemtype.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C66D5172A53287500848971 /* elemtype.c */; };
 		9C66D51C2A53287500848971 /* minheap.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C66D5192A53287500848971 /* minheap.c */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9C3762302A542DBE0089E64F /* kth_least.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = kth_least.c; sourceTree = "<group>"; };
 		9C66D50D2A53284500848971 /* Kth Least */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Kth Least"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C66D5102A53284500848971 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		9C66D5172A53287500848971 /* elemtype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = elemtype.c; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 		9C66D5042A53284500848971 = {
 			isa = PBXGroup;
 			children = (
+				9C3762302A542DBE0089E64F /* kth_least.c */,
 				9C66D5172A53287500848971 /* elemtype.c */,
 				9C66D5182A53287500848971 /* elemtype.h */,
 				9C66D5192A53287500848971 /* minheap.c */,
@@ -131,6 +134,7 @@
 			files = (
 				9C66D51B2A53287500848971 /* elemtype.c in Sources */,
 				9C66D5112A53284500848971 /* main.c in Sources */,
+				9C3762312A542DBE0089E64F /* kth_least.c in Sources */,
 				9C66D51C2A53287500848971 /* minheap.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
