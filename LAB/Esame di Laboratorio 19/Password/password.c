@@ -16,11 +16,11 @@ void PasswordRec(const char *str, int n, int *n_sol, char *vccur, int count){
     
 }
 int Password(const char *str, int n){
-    if(!str){
+    if(!str || n < 1){
         return 0;
     }
     int n_sol = 0;
-    char *vccur = calloc(n, sizeof(char));
+    char *vccur = calloc(n+1, sizeof(char));
     
     PasswordRec(str, n, &n_sol, vccur, 0);
     
