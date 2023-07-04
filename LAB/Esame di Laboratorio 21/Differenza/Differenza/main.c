@@ -1,7 +1,7 @@
 #include "list.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "cc.h"
+#include "differenza.h"
 Item *ListLoad(const char *filename) {
     FILE *f;
     f = fopen(filename, "r");
@@ -25,15 +25,18 @@ Item *ListLoad(const char *filename) {
  
 int main(void) {
     Item *list = ListLoad("data.txt");
+    Item *list1 = ListLoad("data1.txt");
  
     ListWriteStdout(list);
-    ElemType v[] = {7, 8, 0, 4, 6};
-    PrintStdoutVector(v, 5);
+    ListWriteStdout(list1);
+    
+    Item *diff = Differenza(list, list1);
+    ListWriteStdout(diff);
     
 
-    int ret = 0;
-    ret = ComponentiConnesse(list, v, 5);
     ListDelete(list);
+    ListDelete(list1);
+    ListDelete(diff);
    
     return EXIT_SUCCESS;
 }

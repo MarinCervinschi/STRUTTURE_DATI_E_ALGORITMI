@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C37622B2A53FC770089E64F /* differenza.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C37622A2A53FC770089E64F /* differenza.c */; };
 		9C66D4DF2A5327C000848971 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C66D4DE2A5327C000848971 /* main.c */; };
 		9C66D4E92A5327EE00848971 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C66D4E52A5327EE00848971 /* list.c */; };
 		9C66D4EA2A5327EE00848971 /* elemtype.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C66D4E72A5327EE00848971 /* elemtype.c */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9C3762292A53FC770089E64F /* differenza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = differenza.h; sourceTree = "<group>"; };
+		9C37622A2A53FC770089E64F /* differenza.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = differenza.c; sourceTree = "<group>"; };
 		9C66D4DB2A5327C000848971 /* Differenza */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Differenza; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C66D4DE2A5327C000848971 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		9C66D4E52A5327EE00848971 /* list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
@@ -47,6 +50,8 @@
 		9C66D4D22A5327C000848971 = {
 			isa = PBXGroup;
 			children = (
+				9C3762292A53FC770089E64F /* differenza.h */,
+				9C37622A2A53FC770089E64F /* differenza.c */,
 				9C66D4E72A5327EE00848971 /* elemtype.c */,
 				9C66D4E62A5327EE00848971 /* elemtype.h */,
 				9C66D4E52A5327EE00848971 /* list.c */,
@@ -130,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C66D4DF2A5327C000848971 /* main.c in Sources */,
+				9C37622B2A53FC770089E64F /* differenza.c in Sources */,
 				9C66D4EA2A5327EE00848971 /* elemtype.c in Sources */,
 				9C66D4E92A5327EE00848971 /* list.c in Sources */,
 			);
