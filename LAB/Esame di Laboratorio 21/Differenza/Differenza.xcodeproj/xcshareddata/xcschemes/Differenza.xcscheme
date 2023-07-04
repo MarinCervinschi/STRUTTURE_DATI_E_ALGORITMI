@@ -35,7 +35,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/marin/Documents/STRUTTURE DATI E ALGORITMI/LAB/Esame di Laboratorio 21/Monete"
+      customWorkingDirectory = "/Users/marin/Documents/STRUTTURE DATI E ALGORITMI/LAB/Esame di Laboratorio 21/Differenza"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
