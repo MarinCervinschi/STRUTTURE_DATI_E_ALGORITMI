@@ -1,0 +1,14 @@
+COMPLESITA':
+
+La complessità dell'algoritmo di Band Sort dipende dall'algoritmo di ordinamento utilizzato per ordinare le bande. Nell'esempio, viene utilizzato il Merge Sort per ordinare le bande.
+
+La complessità del Merge Sort è O(n log n), dove "n" è la dimensione dell'array. Poiché stiamo suddividendo l'array in "num_bands" bande, l'array viene diviso approssimativamente in n/num_bands elementi per ogni banda. Pertanto, l'ordinamento di ogni banda richiederà un tempo di esecuzione di O((n/num_bands) log (n/num_bands)). Inoltre, la fase di unione delle bande richiede un tempo lineare O(n).
+
+Quindi, nel complesso, la complessità dell'algoritmo di Band Sort utilizzando il Merge Sort per ordinare le bande sarà approssimativamente:
+
+O((n/num_bands) log (n/num_bands)) per ordinare ogni banda +
+O(n) per unire le bande
+
+Poiché "num_bands" è una costante, possiamo semplificare la complessità complessiva dell'algoritmo di Band Sort a:
+
+O(n log (n/num_bands));

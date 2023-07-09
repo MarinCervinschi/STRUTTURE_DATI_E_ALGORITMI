@@ -1,0 +1,9 @@
+L'algoritmo di ordinamento Band Sort è un algoritmo di ordinamento basato sul concetto di suddivisione dell'array in "bande" o "fette". L'idea principale è quella di ordinare separatamente ogni banda e poi unire le bande ordinate per ottenere l'array finale ordinato.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Band Sort:
+
+1.	Dividi l'array in bande di dimensioni uguali o approssimativamente uguali. La dimensione delle bande dipende dalle dimensioni dell'array e dal numero di bande desiderate.
+
+2.	Ordina ogni banda separatamente utilizzando un algoritmo di ordinamento appropriato (ad esempio, Quicksort, Mergesort, Insertion Sort, ecc.).
+
+3.	Unisci le bande ordinate per ottenere l'array finale ordinato.
