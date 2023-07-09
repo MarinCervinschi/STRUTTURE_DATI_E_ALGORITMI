@@ -27,3 +27,6 @@ int Password(const char *str, int n){
     free(vccur);
     return n_sol;
 }
+
+
+
