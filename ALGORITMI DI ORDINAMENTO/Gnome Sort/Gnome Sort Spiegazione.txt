@@ -1,0 +1,10 @@
+L'algoritmo di ordinamento Gnome Sort è un semplice algoritmo di ordinamento che funziona confrontando gli elementi adiacenti e, se non sono in ordine, scambia gli elementi fino a raggiungere una posizione corretta. L'algoritmo deriva il suo nome dal fatto che sembra "prendersi cura" degli elementi fuori posto come un giardiniere che cura le piante nel suo giardino.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Gnome Sort:
+
+Inizia con un puntatore i impostato a 0.
+Se i è uguale a 0, incrementa i.
+Se l'elemento all'indice i è maggiore o uguale all'elemento precedente, incrementa i.
+Se l'elemento all'indice i è minore dell'elemento precedente, scambia gli elementi e decrementa i.
+Ripeti i passaggi da 2 a 4 finché i non raggiunge la fine dell'array.
+L'array è ora ordinato.

@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Gnome Sort è la seguente:
+
+Tempo: Nel caso peggiore, l'algoritmo richiede O(n^2) confronti e scambi, dove "n" è la dimensione dell'array. Tuttavia, in pratica, l'algoritmo può essere più efficiente in quanto può saltare alcune posizioni quando gli elementi sono già ordinati. Pertanto, la complessità temporale media è più vicina a O(n).
+Spazio: L'algoritmo richiede un'allocazione di spazio costante O(1) per le variabili temporanee.
+Si noti che il Gnome Sort è spesso meno efficiente rispetto ad altri algoritmi di ordinamento come il Merge Sort o il Quicksort. Viene spesso utilizzato a scopo didattico o per piccoli array in cui la semplicità e la facilità di implementazione sono più importanti della velocità di esecuzione.
