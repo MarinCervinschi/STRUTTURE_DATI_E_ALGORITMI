@@ -1,0 +1,3 @@
+La complessità dell'algoritmo di Chicken Sort è difficile da determinare in modo preciso perché dipende dalla sequenza casuale di scambi. Tuttavia, in media, l'algoritmo richiede un numero di scambi pari a O(n^2), dove "n" è la dimensione dell'array. Pertanto, la complessità dell'algoritmo può essere approssimata a O(n^2).
+
+Si noti che l'algoritmo di Chicken Sort è inefficiente e non viene utilizzato nella pratica a causa della sua elevata complessità e dell'assenza di garanzie sull'ordinamento corretto. È stato menzionato principalmente a scopo informativo.

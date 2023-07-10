@@ -1,0 +1,11 @@
+L'algoritmo di ordinamento "Bird Sort" è un algoritmo di ordinamento ispirato al comportamento degli uccelli durante la formazione dei branchi. L'idea principale è quella di confrontare gli elementi adiacenti e, se sono fuori ordine, scambiare le loro posizioni. Questo processo viene ripetuto fino a quando tutti gli elementi sono ordinati.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Bird Sort:
+
+Inizia con un flag che indica se ci sono stati scambi durante un passaggio.
+Ripeti i seguenti passaggi finché il flag degli scambi è vero:
+a. Imposta il flag degli scambi su falso.
+b. Scansiona l'array dall'inizio alla fine.
+c. Confronta ogni elemento con il successivo.
+d. Se gli elementi sono fuori ordine, scambiali e imposta il flag degli scambi su vero.
+Se durante un passaggio non sono stati effettuati scambi, l'array è ordinato e l'algoritmo termina.

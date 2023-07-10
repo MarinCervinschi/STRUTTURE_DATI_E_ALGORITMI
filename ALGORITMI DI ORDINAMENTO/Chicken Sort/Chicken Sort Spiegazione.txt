@@ -1,0 +1,9 @@
+L'algoritmo di ordinamento "Chicken Sort" è un algoritmo di ordinamento casuale. Prende il nome dal concetto di utilizzare galline per selezionare casualmente gli elementi e spostarli in posizione corretta. L'algoritmo continua a selezionare casualmente gli elementi finché l'array non è completamente ordinato.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Chicken Sort:
+
+Prendi un array di numeri da ordinare.
+Ripeti fino a quando l'array non è completamente ordinato:
+a. Seleziona casualmente due posizioni nell'array.
+b. Se l'elemento nella prima posizione è maggiore dell'elemento nella seconda posizione, scambia i due elementi.
+c. Verifica se l'array è completamente ordinato. Se lo è, termina il processo.

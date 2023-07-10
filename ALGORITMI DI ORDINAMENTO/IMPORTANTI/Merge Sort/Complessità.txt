@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Merge Sort è:
+
+Tempo: O(n log n) - L'algoritmo suddivide l'array in modo ricorsivo in parti di dimensioni approssimativamente uguali, richiedendo un tempo logaritmico per la divisione. Successivamente, combina (fonde) le parti ordinate richiedendo un tempo lineare. Nel complesso, la complessità è O(n log n).
+Spazio: O(n) - L'algoritmo richiede spazio aggiuntivo per mantenere le parti dell'array durante la ricorsione. La dimensione dello stack di ricorsione è O(log n), quindi la complessità dello spazio è O(n).
+Il Merge Sort ha una buona efficienza in termini di tempo, ma richiede spazio aggiuntivo per l'array di dimensione "n".

@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Insertion Sort è:
+
+Tempo: Nel caso peggiore, quando l'array è completamente disordinato, l'algoritmo richiederà O(n^2) confronti e spostamenti, dove "n" è la dimensione dell'array. Tuttavia, nel caso migliore, quando l'array è già ordinato, l'algoritmo richiederà solo O(n) confronti e nessuno spostamento. La complessità media dell'Insertion Sort è anche O(n^2).
+Spazio: L'Insertion Sort richiede solo una quantità costante di spazio aggiuntivo per le variabili di iterazione. Quindi, la complessità dello spazio è O(1).
+L'Insertion Sort è efficace per piccoli array o per array parzialmente ordinati. Tuttavia, per array di grandi dimensioni, algoritmi di ordinamento più efficienti come Quicksort o Merge Sort sono generalmente preferiti.

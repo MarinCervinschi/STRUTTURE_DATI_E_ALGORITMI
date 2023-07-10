@@ -1,9 +1,0 @@
-L'algoritmo di ordinamento "Bead Sort on Rope" è un algoritmo di ordinamento basato sul conteggio dei "grani" (beads) su una corda per ottenere l'ordinamento desiderato. Ogni grano rappresenta un numero e il numero di grani in una posizione determina il valore del numero corrispondente.
-
-Ecco una spiegazione di alto livello dell'algoritmo di Bead Sort on Rope:
-
-1.	Prendi un array di numeri da ordinare.
-2.	Crea una corda (o una serie di corde) per rappresentare i numeri. La lunghezza delle corde corrisponde al valore massimo nell'array.
-3.	Attacca i grani (beads) sulla corda, uno per ogni numero nell'array. Il numero di grani in una determinata posizione rappresenta il valore del numero corrispondente.
-4.	Scorri la corda dall'alto verso il basso e raccogli i numeri basandoti sul numero di grani in ogni posizione.
-5.	L'array viene quindi riempito con i numeri raccolti in ordine.

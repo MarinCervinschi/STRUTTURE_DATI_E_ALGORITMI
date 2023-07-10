@@ -7,21 +7,21 @@
 7) Bird Sort;
 8) Bitonic Merge Sort;
 9) Bitonic Sort;
-10) Black Hole Sort;
+10) Black Hole Sort; ?
 11) Block Sort;
-12) Book Sort;
-13) Bow Sort;
-14) Bread Sort;
+12) Book Sort; 
+13) Bow Sort;?
+14) Bread Sort;?
 15) Brick Sort;
 16) Bubble Sort;
 17) Bucket Sort;
-18) Car Sort;
+18) Car Sort;?
 19) Card Sort;
-20) Carpenter's Sort;
+20) Carpenter's Sort; ?
 21) Chair Sort;
-22) Chalkboard Sort;
+22) Chalkboard Sort;?
 23) Coat Hanger Sort;
-24) Cocktail Bubble Sort;
+24) Cocktail Bubble Sort;?
 25) Cocktail Sort;
 26) Color Sort;
 27) Comb Sort;

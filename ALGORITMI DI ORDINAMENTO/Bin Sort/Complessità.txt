@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Bin Sort dipende dalla dimensione dell'array e dall'intervallo di valori. Considerando "n" come la dimensione dell'array e "k" come la differenza tra il valore massimo e il valore minimo nell'array, la complessità dell'algoritmo è:
+
+Tempo: O(n + k) - La scansione iniziale dell'array richiede O(n) iterazioni, mentre il riempimento degli elementi ordinati richiede O(k) iterazioni.
+Spazio: O(k) - L'array dei secchi richiede O(k) spazio.
+Si noti che la complessità dipende in gran parte dalla differenza tra il valore massimo e il valore minimo nell'array. Se l'intervallo di valori è molto grande rispetto alla dimensione dell'array, l'algoritmo potrebbe richiedere più spazio e tempo.

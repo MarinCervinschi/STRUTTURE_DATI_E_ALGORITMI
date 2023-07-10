@@ -1,0 +1,9 @@
+L'algoritmo di ordinamento Bucket Sort è un algoritmo di ordinamento che funziona suddividendo l'intervallo di valori in "secchi" (bucket) e inserendo gli elementi in ciascun secchio in base al loro valore. Successivamente, i singoli secchi vengono ordinati separatamente, ad esempio utilizzando un algoritmo di ordinamento semplice come l'Insertion Sort, e infine i valori vengono estratti dai secchi in ordine per ottenere l'array ordinato.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Bucket Sort:
+
+Creare un array di secchi (bucket) vuoti.
+Scorrere l'array di input e inserire ogni elemento nel secchio corrispondente in base al suo valore.
+Ordinare separatamente ciascun secchio (ad esempio utilizzando un algoritmo di ordinamento semplice come l'Insertion Sort).
+Concatenare i valori ordinati di tutti i secchi per ottenere l'array ordinato finale.
+Di seguito è riportata un'implementazione in linguaggio C dell'algoritmo di Bucket Sort utilizzando l'Insertion Sort per ordinare i secchi:

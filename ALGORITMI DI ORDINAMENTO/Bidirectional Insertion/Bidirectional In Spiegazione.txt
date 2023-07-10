@@ -1,0 +1,11 @@
+L'algoritmo di ordinamento "Bidirectional Insertion Sort" è una variante dell'algoritmo di ordinamento "Insertion Sort". L'idea principale dell'algoritmo di Bidirectional Insertion Sort è di scorrere l'array sia in avanti che all'indietro per inserire correttamente ogni elemento nella sua posizione corretta.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Bidirectional Insertion Sort:
+
+Inizia dalla seconda posizione dell'array.
+Memorizza l'elemento corrente in una variabile temporanea.
+Scorri l'array all'indietro (verso sinistra) a partire dalla posizione corrente, confrontando ogni elemento con l'elemento temporaneo.
+Sposta gli elementi più grandi verso destra fino a trovare la posizione corretta per l'elemento temporaneo.
+Scorri l'array in avanti (verso destra) dalla posizione corrente e sposta gli elementi più piccoli verso sinistra fino a trovare la posizione corretta per l'elemento temporaneo.
+Inserisci l'elemento temporaneo nella sua posizione corretta.
+Ripeti i passaggi 2-6 per ogni elemento successivo fino alla fine dell'array.

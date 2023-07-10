@@ -1,0 +1,6 @@
+La complessità dell'algoritmo di Cocktail Sort è la seguente:
+
+Nel caso peggiore, quando l'array è completamente disordinato, richiede O(n^2) confronti e scambi, dove "n" è la dimensione dell'array.
+Tuttavia, nell'ottimo caso, quando l'array è già ordinato, richiede solo O(n) confronti e scambi.
+La complessità media è O(n^2).
+Si tratta quindi di un algoritmo relativamente inefficiente rispetto ad altri algoritmi di ordinamento come il Merge Sort o il Quicksort. Tuttavia, l'algoritmo di Cocktail Sort può essere utile in situazioni in cui l'array è parzialmente ordinato, poiché può ridurre il numero di passaggi necessari per completare l'ordinamento.

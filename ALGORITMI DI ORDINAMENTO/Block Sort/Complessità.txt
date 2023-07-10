@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Block Sort dipende dalla dimensione dell'array e dalla dimensione dei blocchi. Considerando "n" come la dimensione dell'array e "m" come la dimensione dei blocchi, la complessità dell'algoritmo è:
+
+Tempo: O(n * (m + m log m)) - L'algoritmo esegue l'Insertion Sort su ogni blocco, richiedendo O(m^2) operazioni per ogni blocco. Vengono eseguite O(n/m) iterazioni per ordinare tutti i blocchi e O(m log m) operazioni per ogni fase di unione dei blocchi.
+Spazio: O(m) - L'algoritmo utilizza un array temporaneo delle dimensioni di un blocco per eseguire l'unione dei blocchi.
+Si noti che la complessità dipende dalla dimensione dei blocchi. Se la dimensione dei blocchi è molto grande rispetto alla dimensione dell'array, l'algoritmo potrebbe richiedere più tempo e spazio. Inoltre, l'efficienza dell'algoritmo di Block Sort dipende anche dalla scelta dell'algoritmo di ordinamento stabile utilizzato per ordinare i blocchi.

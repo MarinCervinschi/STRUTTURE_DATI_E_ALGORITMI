@@ -1,0 +1,9 @@
+L'algoritmo di ordinamento "Card Sort" è un algoritmo di ordinamento basato sul concetto di ordinare una serie di carte. L'idea principale è quella di rappresentare gli elementi da ordinare come carte e utilizzare operazioni di confronto per posizionare le carte nella posizione corretta.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Card Sort:
+
+Prendi un array di elementi da ordinare.
+Inizializza un mazzo vuoto di carte.
+Per ogni elemento nell'array, crea una carta con il valore corrispondente e posizionala nel mazzo.
+Ordina le carte nel mazzo utilizzando operazioni di confronto tra le carte.
+Estrai gli elementi ordinati dal mazzo in un nuovo array, ottenendo così l'array ordinato.

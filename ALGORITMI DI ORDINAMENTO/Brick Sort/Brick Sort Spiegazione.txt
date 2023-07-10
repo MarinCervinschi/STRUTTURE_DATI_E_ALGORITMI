@@ -1,0 +1,9 @@
+L'algoritmo di ordinamento "Brick Sort" è un algoritmo di ordinamento basato su una variante del Bubble Sort. Prende il nome dal suo comportamento di scambio degli elementi simile all'impilamento di mattoni.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Brick Sort:
+
+Prendi un array di numeri da ordinare.
+Effettua una passata in avanti lungo l'array e confronta gli elementi adiacenti. Se l'elemento corrente è maggiore dell'elemento successivo, scambiali di posizione.
+Effettua una passata all'indietro lungo l'array, partendo dall'ultimo elemento, e confronta gli elementi adiacenti. Se l'elemento corrente è maggiore dell'elemento successivo, scambiali di posizione.
+Continua ad alternare le passate in avanti e all'indietro finché non ci sono più scambi da effettuare.
+L'array viene quindi ordinato.

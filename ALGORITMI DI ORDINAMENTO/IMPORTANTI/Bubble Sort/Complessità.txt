@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Bubble Sort è la seguente:
+
+Tempo: O(n^2) - Poiché ci sono due cicli annidati, il tempo di esecuzione è proporzionale al quadrato del numero di elementi nell'array. Anche nel caso migliore, l'algoritmo richiederà O(n^2) operazioni di confronto e scambio.
+Spazio: O(1) - L'algoritmo richiede una quantità costante di spazio aggiuntivo per mantenere le variabili temporanee utilizzate nello scambio degli elementi.
+Il Bubble Sort è un algoritmo semplice da implementare, ma può essere inefficiente per array di grandi dimensioni. Altri algoritmi di ordinamento come il Merge Sort o il Quick Sort offrono prestazioni migliori per array più grandi.

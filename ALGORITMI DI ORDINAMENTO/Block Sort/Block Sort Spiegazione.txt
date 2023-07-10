@@ -1,0 +1,8 @@
+L'algoritmo di ordinamento "Block Sort" è un algoritmo di ordinamento stabile basato sul concetto di suddividere l'array in blocchi di dimensioni fisse, ordinare i blocchi e poi unire i blocchi ordinati per ottenere l'array finale ordinato.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Block Sort:
+
+Dividi l'array in blocchi di dimensioni fisse.
+Ordina separatamente ogni blocco utilizzando un algoritmo di ordinamento stabile.
+Unisci i blocchi ordinati per ottenere l'array finale ordinato.
+Di seguito è riportata un'implementazione in linguaggio C dell'algoritmo di Block Sort utilizzando l'algoritmo di ordinamento stabile "Insertion Sort" per ordinare i blocchi:

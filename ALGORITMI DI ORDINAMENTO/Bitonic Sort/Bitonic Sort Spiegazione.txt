@@ -1,0 +1,8 @@
+L'algoritmo di ordinamento "Bitonic Sort" è un algoritmo parallelo che ordina una sequenza di numeri in ordine crescente o decrescente. L'algoritmo di Bitonic Sort utilizza l'idea di una sequenza "bitonica" che è una sequenza che prima è crescente e poi è decrescente (o viceversa).
+
+Ecco una spiegazione di alto livello dell'algoritmo di Bitonic Sort:
+
+Divide la sequenza di numeri in modo ricorsivo in due metà di dimensioni uguali.
+Applica l'ordinamento bitonico crescente a una delle metà e l'ordinamento bitonico decrescente all'altra metà.
+Ricombina le due metà in una sequenza bitonica di dimensione doppia.
+Ripeti i passaggi 2 e 3 ricorsivamente fino a che la sequenza bitonica diventa completamente ordinata.

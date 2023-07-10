@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Bird Sort dipende dalla disposizione degli elementi nell'array di input. Nel caso peggiore, quando l'array è ordinato in ordine inverso, l'algoritmo richiederà O(n^2) confronti e scambi, dove "n" è la dimensione dell'array.
+
+Tuttavia, nel caso migliore, quando l'array è già ordinato, l'algoritmo richiederà solo O(n) confronti e zero scambi.
+
+La complessità media dell'algoritmo di Bird Sort è O(n^2). Non è considerato uno degli algoritmi di ordinamento più efficienti, ma può essere utile per piccoli array o per casi in cui l'array è già quasi ordinato.

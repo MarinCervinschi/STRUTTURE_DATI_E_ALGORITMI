@@ -1,0 +1,8 @@
+L'algoritmo di ordinamento Quicksort è un efficiente algoritmo di ordinamento basato sul concetto di "divide et impera". L'idea principale è di selezionare un elemento come "pivot" e dividere l'array in due parti, in modo che gli elementi a sinistra del pivot siano più piccoli del pivot e gli elementi a destra siano più grandi. Ricorsivamente, si applica il Quicksort alle due parti dell'array fino a quando l'array è completamente ordinato.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Quicksort:
+
+Scegli un elemento come pivot dall'array.
+Riorganizza gli elementi in modo che gli elementi a sinistra del pivot siano minori del pivot e gli elementi a destra siano maggiori del pivot.
+Ricorsivamente, applica il Quicksort alle due parti dell'array (a sinistra e a destra del pivot) finché le parti sono di dimensione maggiore di 1.
+Combinando le parti ordinate, si ottiene l'array completamente ordinato.

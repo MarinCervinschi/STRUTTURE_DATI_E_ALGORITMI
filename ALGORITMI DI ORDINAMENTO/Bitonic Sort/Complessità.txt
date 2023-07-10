@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Bitonic Sort è:
+
+Tempo: O(log^2(n)) - L'algoritmo di Bitonic Sort esegue log^2(n) iterazioni, dove "n" è la dimensione dell'array.
+Spazio: O(1) - L'algoritmo di Bitonic Sort ordina l'array in loco, senza utilizzare memoria aggiuntiva.
+Si noti che l'algoritmo di Bitonic Sort richiede che la dimensione dell'array sia una potenza di 2, poiché divide l'array in metà ricorsivamente. Se l'array non ha una dimensione potenza di 2, potrebbe essere necessario aggiungere elementi extra per adattare l'algoritmo.

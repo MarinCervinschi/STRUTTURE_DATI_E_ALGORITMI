@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Coat Hanger Sort dipende dalla dimensione dell'array e dal range dei valori presenti nell'array. Considerando "n" come la dimensione dell'array e "m" come la differenza tra il valore massimo e il valore minimo nell'array, la complessità dell'algoritmo è:
+
+Tempo: O(n + m) - Il ciclo per appendere gli elementi richiede O(n) iterazioni, mentre il ciclo per spostare gli elementi richiede al massimo O(m) iterazioni.
+Spazio: O(m) - La dimensione dell'appendiabiti corrisponde alla differenza tra il valore massimo e il valore minimo nell'array.
+Si noti che la complessità dipende principalmente dal range dei valori nell'array. Se il range è molto grande rispetto alla dimensione dell'array, l'algoritmo potrebbe richiedere più spazio e tempo.

@@ -1,0 +1,9 @@
+L'algoritmo di ordinamento "Bin Sort" è un algoritmo di ordinamento che utilizza un'operazione di conteggio per posizionare gli elementi in "bucce" o "secchi" (bins) appropriati. Ogni secchio rappresenta un intervallo di valori e gli elementi vengono inseriti nei secchi corrispondenti in base al loro valore.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Bin Sort:
+
+Prendi un array di numeri da ordinare.
+Trova il valore minimo e massimo nell'array per determinare l'intervallo di valori.
+Crea un array di secchi (bins) corrispondenti all'intervallo di valori.
+Scansiona l'array di input e inserisci ogni numero nel secchio appropriato in base al suo valore.
+Concatena i secchi per ottenere l'array ordinato.

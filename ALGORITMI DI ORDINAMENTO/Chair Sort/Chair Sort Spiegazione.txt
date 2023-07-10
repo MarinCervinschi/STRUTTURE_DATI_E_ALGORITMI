@@ -1,0 +1,9 @@
+L'algoritmo di ordinamento "Chair Sort" è un algoritmo di ordinamento particolare che utilizza il concetto di "sedie" (chair) per ottenere l'ordinamento desiderato. L'idea principale è quella di posizionare gli elementi dell'array su sedie in base ai loro valori, quindi raccoglierli in ordine.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Chair Sort:
+
+Prendi un array di numeri da ordinare.
+Crea un array di sedie, inizializzate a 0.
+Posiziona ogni numero nell'array sulle sedie corrispondenti al valore del numero.
+Raccogli gli elementi dalle sedie nell'ordine corretto.
+L'array viene quindi riempito con gli elementi raccolti in ordine.

@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Brick Sort dipende dalla dimensione dell'array. Considerando "n" come la dimensione dell'array, la complessità dell'algoritmo è:
+
+Tempo: Nel caso peggiore, il Brick Sort richiede O(n^2) confronti e scambi. Tuttavia, in pratica, il numero effettivo di confronti e scambi può essere inferiore a causa della natura del suo funzionamento alternato.
+Spazio: L'algoritmo di Brick Sort utilizza una quantità costante di spazio aggiuntivo per le variabili temporanee, quindi la complessità di spazio è O(1).
+Si noti che l'algoritmo di Brick Sort può essere meno efficiente rispetto ad altri algoritmi di ordinamento come Quicksort o Merge Sort. È spesso utilizzato per scopi educativi o in situazioni specifiche in cui si desidera sfruttare la sua caratteristica di scambio alternato.

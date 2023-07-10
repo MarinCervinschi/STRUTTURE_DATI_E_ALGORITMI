@@ -1,0 +1,9 @@
+L'algoritmo di ordinamento "Bead Sort" è un algoritmo di ordinamento basato sul conteggio dei "grani" (beads) per ottenere l'ordinamento desiderato. Ogni grano rappresenta un numero e il numero di grani in una posizione determina il valore del numero corrispondente.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Bead Sort:
+
+Prendi un array di numeri da ordinare.
+Crea una serie di corde per rappresentare i numeri.
+Attacca i grani sulla corda, uno per ogni numero nell'array. Il numero di grani in una posizione rappresenta il valore del numero corrispondente.
+Scorri la corda dall'alto verso il basso e raccogli i numeri basandoti sul numero di grani in ogni posizione.
+L'array viene quindi riempito con i numeri raccolti in ordine.

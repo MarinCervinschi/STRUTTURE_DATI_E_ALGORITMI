@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Card Sort dipende dalla dimensione dell'array. Utilizzando l'algoritmo di Bubble Sort per ordinare le carte, la complessità dell'algoritmo di Card Sort è:
+
+Tempo: O(n^2) - L'algoritmo di Bubble Sort richiede O(n^2) confronti e scambi per ordinare le carte.
+Spazio: O(n) - Viene utilizzato spazio aggiuntivo per il mazzo di carte, che richiede O(n) memoria.
+Si noti che l'algoritmo di Card Sort con l'algoritmo di Bubble Sort non è un algoritmo efficiente per grandi dimensioni di array, ma può essere utile per scopi didattici o per piccoli input.

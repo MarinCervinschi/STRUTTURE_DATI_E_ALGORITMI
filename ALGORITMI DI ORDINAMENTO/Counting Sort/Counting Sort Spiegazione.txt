@@ -1,0 +1,10 @@
+L'algoritmo di ordinamento "Counting Sort" è un algoritmo di ordinamento efficace per ordinare un array di elementi con valori interi limitati in un determinato intervallo. Funziona creando un array di conteggio che tiene traccia del numero di occorrenze di ciascun valore nell'array di input. Quindi, utilizzando l'array di conteggio, viene creato un array di output ordinato.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Counting Sort:
+
+Trova il valore massimo "max" nell'array di input.
+Crea un array di conteggio "count" di dimensione "max + 1" e inizializzalo con zeri.
+Scorri l'array di input e incrementa il valore corrispondente nell'array di conteggio.
+Calcola le posizioni finali degli elementi nell'array di output sommando i valori dell'array di conteggio in modo cumulativo.
+Scorri nuovamente l'array di input e posiziona ciascun elemento nella sua posizione corretta nell'array di output, decrementando il valore corrispondente nell'array di conteggio.
+L'array di output conterrà gli elementi ordinati.

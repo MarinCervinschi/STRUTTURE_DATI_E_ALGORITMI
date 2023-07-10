@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Bucket Sort dipende dalla dimensione dell'array e dal numero di secchi (num_buckets) utilizzati. Considerando "n" come la dimensione dell'array, "m" come il valore massimo nell'array e "k" come il numero di secchi, la complessità dell'algoritmo è:
+
+Tempo: O(n + k^2) - L'inserimento degli elementi nei secchi richiede O(n) iterazioni. Successivamente, l'ordinamento dei secchi richiede in totale O(k^2) iterazioni (considerando l'Insertion Sort come algoritmo di ordinamento). La concatenazione dei valori ordinati richiede un tempo lineare O(n).
+Spazio: O(n + k) - Ogni secchio può contenere fino a "n" elementi, quindi la dimensione totale dei secchi è O(n). Inoltre, è necessario un ulteriore spazio per la gestione dei secchi, che richiede O(k) spazio.
+Si noti che la complessità può variare in base all'implementazione specifica e alle caratteristiche dell'input. Inoltre, la scelta del numero di secchi (num_buckets) può influire sulle prestazioni dell'algoritmo.

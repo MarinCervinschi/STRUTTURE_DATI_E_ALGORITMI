@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Bidirectional Insertion Sort è la stessa dell'algoritmo di Insertion Sort, ovvero:
+
+Tempo: O(n^2) nel caso peggiore, dove "n" è la dimensione dell'array.
+Spazio: O(1) in quanto l'algoritmo richiede solo una quantità costante di spazio aggiuntivo per le variabili temporanee.
+Tuttavia, il Bidirectional Insertion Sort può essere più efficiente dell'Insertion Sort tradizionale in alcuni casi, poiché riduce il numero di confronti e scambi in alcune situazioni. Tuttavia, la complessità complessiva rimane la stessa.

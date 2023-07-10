@@ -9,9 +9,12 @@ void PrintStdoutVector(int *v, int v_size){
     printf("%d}\n", v[v_size-1]);
 }
 int main(void) {
-    int v[] ={3, 6, 2, 9, 0, 7, 1, -4, 8 };
-    PrintStdoutVector(v, 9);
-    CountingSort(v, 9);
-    PrintStdoutVector(v, 9);
+    {
+        int v[] ={3, 6, 2, 9, 0, 7, 1, -4, 8 };
+        PrintStdoutVector(v, 9);
+        CountingSort(v, 9);
+        PrintStdoutVector(v, 9);
+    }
+    
     return 0;
 }

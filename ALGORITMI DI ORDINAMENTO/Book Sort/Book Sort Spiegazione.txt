@@ -1,0 +1,9 @@
+L'algoritmo di ordinamento "Book Sort" è un algoritmo di ordinamento basato sulla simulazione del processo di ordinamento dei libri in una libreria. Questo algoritmo opera suddividendo l'array in sottosezioni e spostando gli elementi nelle diverse sottosezioni per ottenere l'ordinamento desiderato.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Book Sort:
+
+Prendi un array di numeri da ordinare.
+Dividi l'array in sottosezioni, ognuna delle quali rappresenta una "scaffale" nella libreria.
+Analizza l'array da sinistra a destra e sposta ogni numero nella sottosezione corrispondente al valore del numero.
+Ripeti il passaggio 3 finché non hai attraversato tutto l'array e non hai spostato tutti gli elementi nelle sottosezioni corrette.
+Concatena le sottosezioni ordinate per ottenere l'array ordinato.

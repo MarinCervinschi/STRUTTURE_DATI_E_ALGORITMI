@@ -1,0 +1,7 @@
+L'algoritmo di ordinamento Merge Sort è un algoritmo di ordinamento efficiente che utilizza la tecnica "divide et impera" per suddividere l'array in due parti, ordinare separatamente le due parti e poi combinare i risultati ottenuti per ottenere l'array ordinato.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Merge Sort:
+
+Dividi l'array non ordinato in due parti di dimensioni approssimativamente uguali.
+Ricorsivamente applica il Merge Sort a entrambe le parti suddivise fino a che non si raggiunge una dimensione di 1 o 0 (che sono già considerati ordinati).
+Fai il merge (fusione) delle due parti ordinate, creando un array di output ordinato.

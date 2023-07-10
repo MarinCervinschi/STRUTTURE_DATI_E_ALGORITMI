@@ -1,0 +1,10 @@
+L'algoritmo di ordinamento "Bead Sort with Weighing" è una variante dell'algoritmo di Bead Sort che tiene conto del peso dei grani per ottenere un ordinamento stabile. In questo algoritmo, oltre a contare il numero di grani in ogni posizione, vengono utilizzati dei pesi per assegnare un valore ai grani. Questo permette di mantenere l'ordine relativo degli elementi con lo stesso numero di grani.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Bead Sort with Weighing:
+
+Prendi un array di numeri da ordinare.
+Crea una serie di corde per rappresentare i numeri.
+Attacca i grani sulla corda, uno per ogni numero nell'array. Il numero di grani in una posizione rappresenta il valore del numero corrispondente.
+Assegna un peso ai grani in base alla loro posizione nell'array.
+Scorri la corda dall'alto verso il basso e raccogli i numeri basandoti sul peso dei grani in ogni posizione.
+L'array viene quindi riempito con i numeri raccolti in ordine.

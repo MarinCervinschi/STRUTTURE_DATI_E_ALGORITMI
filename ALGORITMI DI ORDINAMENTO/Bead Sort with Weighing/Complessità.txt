@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Bead Sort with Weighing dipende dalla dimensione dell'array e dal valore massimo presente nell'array. Considerando "n" come la dimensione dell'array e "m" come il valore massimo nell'array, la complessità dell'algoritmo è:
+
+Tempo: O(n + m) - Il ciclo per posizionare i grani richiede O(n) iterazioni, mentre il ciclo per riempire l'array richiede O(m) iterazioni.
+Spazio: O(m) - La dimensione della corda corrisponde al valore massimo nell'array, mentre la dimensione dell'array dei pesi è anch'essa O(m).
+Si noti che la complessità dipende in gran parte dal valore massimo nell'array. Se il valore massimo è molto grande rispetto alla dimensione dell'array, l'algoritmo potrebbe richiedere più spazio e tempo.

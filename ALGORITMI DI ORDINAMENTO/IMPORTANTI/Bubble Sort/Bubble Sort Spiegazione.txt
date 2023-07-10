@@ -1,0 +1,9 @@
+L'algoritmo di ordinamento Bubble Sort è un semplice algoritmo che confronta ripetutamente coppie adiacenti di elementi e li scambia se sono in ordine inverso. Questo processo continua fino a quando l'intero array è ordinato.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Bubble Sort:
+
+Prendi un array di numeri da ordinare.
+Inizia con il primo elemento dell'array e confrontalo con il successivo.
+Se l'elemento successivo è più piccolo, scambiali di posizione.
+Prosegui con l'elemento successivo e continua a confrontare e scambiare finché non raggiungi l'ultimo elemento dell'array.
+Ripeti i passaggi 2-4 finché l'array non è completamente ordinato (nessuno scambio viene effettuato durante un'iterazione).

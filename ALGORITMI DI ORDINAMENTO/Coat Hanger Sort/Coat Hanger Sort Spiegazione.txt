@@ -1,0 +1,9 @@
+L'algoritmo di ordinamento "Coat Hanger Sort" è un algoritmo di ordinamento ispirato all'idea di appendere gli elementi su un appendiabiti (coat hanger) e ordinare gli elementi in base alla loro posizione sull'appendiabiti. L'algoritmo funziona suddividendo l'array in diverse sezioni corrispondenti alle posizioni dell'appendiabiti e spostando gli elementi attraverso le diverse sezioni fino a raggiungere l'ordinamento desiderato.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Coat Hanger Sort:
+
+Prendi un array di numeri da ordinare.
+Inizializza un appendiabiti virtuale con un numero di sezioni corrispondente al valore massimo nell'array.
+Scansiona l'array e appendi ogni numero sull'appendiabiti nella sezione corrispondente al suo valore.
+Passa attraverso le sezioni dell'appendiabiti e sposta gli elementi verso l'alto o verso il basso per ottenere l'ordinamento desiderato.
+Ripeti il passo 4 fino a quando l'array è completamente ordinato.

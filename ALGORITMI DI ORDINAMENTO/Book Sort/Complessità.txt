@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Book Sort dipende dalla dimensione dell'array e dalla distribuzione dei valori presenti nell'array. Considerando "n" come la dimensione dell'array e "m" come la differenza tra il valore massimo e il valore minimo nell'array, la complessità dell'algoritmo è:
+
+Tempo: O(n + m) - Il ciclo per spostare gli elementi richiede O(n) iterazioni, mentre il ciclo per concatenare le sottosezioni richiede O(m) iterazioni.
+Spazio: O(n + m) - Viene utilizzato spazio aggiuntivo per memorizzare le sottosezioni e le dimensioni dei scaffali.
+Si noti che la complessità può variare in base alla distribuzione dei valori nell'array. Se la differenza tra il valore massimo e il valore minimo è molto grande rispetto alla dimensione dell'array, l'algoritmo potrebbe richiedere più spazio e tempo.

@@ -1,0 +1,11 @@
+L'algoritmo di ordinamento "Cocktail Sort" (o "Shaker Sort") è una variante del Bubble Sort. Questo algoritmo esegue ripetutamente un passaggio verso destra e un passaggio verso sinistra attraverso l'array, scambiando gli elementi adiacenti fuori posizione, fino a quando l'array è completamente ordinato.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Cocktail Sort:
+
+Inizia con un indicatore left che punta all'inizio dell'array e un indicatore right che punta alla fine dell'array.
+Esegui un ciclo finché left è minore di right:
+Effettua un passaggio da sinistra a destra (da left a right) e scambia gli elementi adiacenti fuori posizione.
+Decrementa right.
+Effettua un passaggio da destra a sinistra (da right a left) e scambia gli elementi adiacenti fuori posizione.
+Incrementa left.
+L'algoritmo continua finché non sono più necessari scambi, indicando che l'array è stato completamente ordinato.
