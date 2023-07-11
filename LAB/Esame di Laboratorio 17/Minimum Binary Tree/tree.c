@@ -17,7 +17,6 @@ Node *TreeCreateRoot(const ElemType *e, Node *l, Node *r) {
     t->value = ElemCopy(e);
     t->left = l;
     t->right = r;
-    t->next = NULL;
     return t;
 }
 
