@@ -5,12 +5,12 @@ Node *CreateMinBinTree(const ElemType *v, size_t v_size){
         return NULL;
     }
     // Trova l'indice dell'elemento minimo nel vettore v
-        size_t min_index = 0;
-        for (size_t i = 1; i < v_size; i++) {
-            if (v[i] < v[min_index]) {
-                min_index = i;
-            }
+    size_t min_index = 0;
+    for (size_t i = 1; i < v_size; i++) {
+        if (v[i] < v[min_index]) {
+            min_index = i;
         }
+    }
     
     Node *root = TreeCreateRoot(&v[min_index], NULL, NULL);
     
