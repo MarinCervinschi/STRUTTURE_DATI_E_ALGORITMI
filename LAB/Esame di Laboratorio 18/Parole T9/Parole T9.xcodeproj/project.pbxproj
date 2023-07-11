@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9CD8A0F82A5D55CE003D5DF6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8A0F72A5D55CE003D5DF6 /* main.c */; };
+		9CD8A1182A5D827E003D5DF6 /* t9.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8A1172A5D827E003D5DF6 /* t9.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		9CD8A0F42A5D55CE003D5DF6 /* Parole T9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Parole T9"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD8A0F72A5D55CE003D5DF6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9CD8A1172A5D827E003D5DF6 /* t9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t9.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		9CD8A0EB2A5D55CE003D5DF6 = {
 			isa = PBXGroup;
 			children = (
+				9CD8A1172A5D827E003D5DF6 /* t9.c */,
 				9CD8A0F62A5D55CE003D5DF6 /* Parole T9 */,
 				9CD8A0F52A5D55CE003D5DF6 /* Products */,
 			);
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD8A1182A5D827E003D5DF6 /* t9.c in Sources */,
 				9CD8A0F82A5D55CE003D5DF6 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

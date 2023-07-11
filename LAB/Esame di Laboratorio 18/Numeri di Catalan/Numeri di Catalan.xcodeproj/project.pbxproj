@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CD8A0E52A5D55B7003D5DF6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8A0E42A5D55B7003D5DF6 /* main.c */; };
+		9CD8A0E52A5D55B7003D5DF6 /* catalan.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8A0E42A5D55B7003D5DF6 /* catalan.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		9CD8A0E12A5D55B7003D5DF6 /* Numeri di Catalan */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Numeri di Catalan"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CD8A0E42A5D55B7003D5DF6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9CD8A0E42A5D55B7003D5DF6 /* catalan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = catalan.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		9CD8A0E32A5D55B7003D5DF6 /* Numeri di Catalan */ = {
 			isa = PBXGroup;
 			children = (
-				9CD8A0E42A5D55B7003D5DF6 /* main.c */,
+				9CD8A0E42A5D55B7003D5DF6 /* catalan.c */,
 			);
 			path = "Numeri di Catalan";
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD8A0E52A5D55B7003D5DF6 /* main.c in Sources */,
+				9CD8A0E52A5D55B7003D5DF6 /* catalan.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
