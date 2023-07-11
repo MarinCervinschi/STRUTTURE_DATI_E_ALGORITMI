@@ -10,6 +10,7 @@
 		9CD8A14E2A5DB7BA003D5DF6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8A14D2A5DB7BA003D5DF6 /* main.c */; };
 		9CD8A1582A5DB7FF003D5DF6 /* elemtype.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8A1542A5DB7FE003D5DF6 /* elemtype.c */; };
 		9CD8A1592A5DB7FF003D5DF6 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8A1572A5DB7FE003D5DF6 /* list.c */; };
+		9CD8A18F2A5DD217003D5DF6 /* reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8A18E2A5DD217003D5DF6 /* reverse.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		9CD8A1552A5DB7FE003D5DF6 /* elemtype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elemtype.h; sourceTree = "<group>"; };
 		9CD8A1562A5DB7FE003D5DF6 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
 		9CD8A1572A5DB7FE003D5DF6 /* list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
+		9CD8A18E2A5DD217003D5DF6 /* reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reverse.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		9CD8A1412A5DB7BA003D5DF6 = {
 			isa = PBXGroup;
 			children = (
+				9CD8A18E2A5DD217003D5DF6 /* reverse.c */,
 				9CD8A1542A5DB7FE003D5DF6 /* elemtype.c */,
 				9CD8A1552A5DB7FE003D5DF6 /* elemtype.h */,
 				9CD8A1572A5DB7FE003D5DF6 /* list.c */,
@@ -131,6 +134,7 @@
 			files = (
 				9CD8A1592A5DB7FF003D5DF6 /* list.c in Sources */,
 				9CD8A1582A5DB7FF003D5DF6 /* elemtype.c in Sources */,
+				9CD8A18F2A5DD217003D5DF6 /* reverse.c in Sources */,
 				9CD8A14E2A5DB7BA003D5DF6 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

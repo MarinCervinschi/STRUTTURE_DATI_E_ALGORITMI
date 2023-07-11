@@ -1,7 +1,7 @@
 #include "list.h"
- 
+#include "elemtype.h"
 #include <stdlib.h>
- 
+extern Item *Reverse(Item *i);
 Item *ListLoad(const char *filename) {
     FILE *f;
     f = fopen(filename, "r");
@@ -24,10 +24,11 @@ Item *ListLoad(const char *filename) {
 }
  
 int main(void) {
-    Item *list = ListLoad("load_example_01.txt");
+    Item *list = ListLoad("data.txt");
  
     ListWriteStdout(list);
- 
+    list = Reverse(list);
+    ListWriteStdout(list);
     ListDelete(list);
  
     return EXIT_SUCCESS;
