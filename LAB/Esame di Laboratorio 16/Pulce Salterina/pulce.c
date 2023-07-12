@@ -57,7 +57,6 @@ void GuidaLaPulceRec(const int *f, size_t f_size, int a, int b, int n, int h, si
         v_curr[index] = 'a';
         GuidaLaPulceRec(f, f_size, a, b, n, h, ret_size, index+1, v_best, v_curr);
     }
-    
 }
 
 char *GuidaLaPulce(const int *f, size_t f_size, int a, int b, int n, int h, size_t *ret_size){
