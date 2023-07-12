@@ -53,13 +53,11 @@ void GuidaLaPulceRec(const int *f, size_t f_size, int a, int b, int n, int h, si
     if(index == n){
         return;
     }
-    
-    for (int i = 0; i < n; ++i) {
-        if(v_curr[i] == 0 && PosGood(f, f_size, pos_curr)){
-            v_curr[index] = 'a';
-            GuidaLaPulceRec(f, f_size, a, b, n, h, ret_size, index+1, v_best, v_curr);
-        }
+    if(v_curr[index] == 0 && PosGood(f, f_size, pos_curr)){
+        v_curr[index] = 'a';
+        GuidaLaPulceRec(f, f_size, a, b, n, h, ret_size, index+1, v_best, v_curr);
     }
+    
 }
 
 char *GuidaLaPulce(const int *f, size_t f_size, int a, int b, int n, int h, size_t *ret_size){
