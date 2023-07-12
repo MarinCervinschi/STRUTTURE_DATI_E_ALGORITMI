@@ -1,0 +1,17 @@
+L'unica operazione a disposizione per eseguire l'ordinamento è flip(v, i), che inverte gli elementi del vettore v dalla posizione 0 alla posizione i, estremi inclusi.
+
+As esempio, dato il vettore seguente:
+
+     0  1  2  3  4  5  6 
+v = [1, 2, 3, 4, 5, 6, 7]
+
+la funzione flip(v, 2) produrrebbe v_ = [3, 2, 1, 4, 5, 6, 7];
+la funzione flip(v, 5) produrrebbe v_ = [6, 5, 4, 3, 2, 1, 7];
+...
+Dato il vettore v e la sua dimenzione v_size, l'algoritmo di ordinamento utilizza una serie di pancake flip per produrre il vettore finale. Inizialmente si imposta curr_size = v_size, quindi si procede come segue:
+
+Si trova l'indice dell'elemento di valore massimo, m, in v, considerando solo gli elementi da quello di indice 0 a quello di indice curr_size - 1;
+Si invoca la funzione flip(v, m);
+Si invoca la funzione flip(v, curr_size - 1);
+Si decrementa curr_size di 1.
+L'algoritmo termina quando curr_size vale 1.

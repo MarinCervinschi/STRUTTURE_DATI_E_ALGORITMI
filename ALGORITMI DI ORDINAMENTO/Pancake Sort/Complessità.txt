@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Pancake Sort è la seguente:
+
+Tempo: O(n^2) - L'algoritmo richiede due cicli nidificati per invertire gli elementi. In ogni iterazione, il primo ciclo cerca il valore massimo nell'array (O(n)), mentre il secondo ciclo inverte gli elementi (O(n)). Poiché entrambi i cicli sono nidificati, la complessità totale è O(n^2).
+Spazio: O(1) - L'algoritmo di Pancake Sort utilizza solo un'amount costante di memoria aggiuntiva per le variabili temporanee, indipendentemente dalle dimensioni dell'array.
+Si noti che Pancake Sort ha una complessità quadratica e potrebbe non essere efficiente per grandi quantità di dati. È spesso utilizzato come esercizio accademico o in situazioni in cui la complessità non è un fattore critico. 
