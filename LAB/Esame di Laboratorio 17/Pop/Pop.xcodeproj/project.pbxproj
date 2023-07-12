@@ -10,6 +10,7 @@
 		9CD8A1802A5DB85B003D5DF6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8A17F2A5DB85B003D5DF6 /* main.c */; };
 		9CD8A18A2A5DB8D0003D5DF6 /* elemtype.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8A1872A5DB8D0003D5DF6 /* elemtype.c */; };
 		9CD8A18B2A5DB8D0003D5DF6 /* minheap.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8A1882A5DB8D0003D5DF6 /* minheap.c */; };
+		9CD8A1932A5EE884003D5DF6 /* pop.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8A1922A5EE884003D5DF6 /* pop.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		9CD8A1872A5DB8D0003D5DF6 /* elemtype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = elemtype.c; sourceTree = "<group>"; };
 		9CD8A1882A5DB8D0003D5DF6 /* minheap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minheap.c; sourceTree = "<group>"; };
 		9CD8A1892A5DB8D0003D5DF6 /* minheap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = minheap.h; sourceTree = "<group>"; };
+		9CD8A1922A5EE884003D5DF6 /* pop.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pop.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		9CD8A1732A5DB85B003D5DF6 = {
 			isa = PBXGroup;
 			children = (
+				9CD8A1922A5EE884003D5DF6 /* pop.c */,
 				9CD8A1872A5DB8D0003D5DF6 /* elemtype.c */,
 				9CD8A1862A5DB8D0003D5DF6 /* elemtype.h */,
 				9CD8A1882A5DB8D0003D5DF6 /* minheap.c */,
@@ -130,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CD8A18A2A5DB8D0003D5DF6 /* elemtype.c in Sources */,
+				9CD8A1932A5EE884003D5DF6 /* pop.c in Sources */,
 				9CD8A1802A5DB85B003D5DF6 /* main.c in Sources */,
 				9CD8A18B2A5DB8D0003D5DF6 /* minheap.c in Sources */,
 			);
