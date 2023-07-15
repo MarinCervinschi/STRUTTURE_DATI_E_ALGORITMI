@@ -3,13 +3,21 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "Domino:domino.c">
+         contextName = "canConnect:domino.c">
       </ContextState>
       <ContextState
          contextName = "DominoRec:domino.c">
          <PersistentStrings>
             <PersistentString
                value = "(Placing (&amp;) [5]) *v_curr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "findLongestSnake:domino.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(Placing (&amp;) [4]) *snake">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
