@@ -2,7 +2,7 @@
 #include <string.h>
  
 #include "minheap.h"
- 
+extern void Push(Heap *h, const ElemType *e);
 Heap *HeapifyMinHeap(const ElemType *v, size_t v_size) {
     // Costruisco la heap con gli elementi del vettore v
     Heap *h = HeapCreateEmpty();
@@ -26,7 +26,9 @@ int main(void) {
     
     Heap *h = HeapifyMinHeap(v, v_size);
     HeapWriteStdout(h);
- 
+    const ElemType e = 13;
+    Push(h, &e);
+    HeapWriteStdout(h);
     HeapDelete(h);
  
     return EXIT_SUCCESS;

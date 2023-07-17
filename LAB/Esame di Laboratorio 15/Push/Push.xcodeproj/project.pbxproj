@@ -10,6 +10,7 @@
 		9C8A81F62A6196C300AEEFC4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A81F52A6196C300AEEFC4 /* main.c */; };
 		9C8A82002A61970000AEEFC4 /* elemtype.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A81FD2A61970000AEEFC4 /* elemtype.c */; };
 		9C8A82012A61970000AEEFC4 /* minheap.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A81FE2A61970000AEEFC4 /* minheap.c */; };
+		9CA8C0762A640D1A00F40DF5 /* push.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8C0752A640D1A00F40DF5 /* push.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		9C8A81FD2A61970000AEEFC4 /* elemtype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = elemtype.c; sourceTree = "<group>"; };
 		9C8A81FE2A61970000AEEFC4 /* minheap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minheap.c; sourceTree = "<group>"; };
 		9C8A81FF2A61970000AEEFC4 /* elemtype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elemtype.h; sourceTree = "<group>"; };
+		9CA8C0752A640D1A00F40DF5 /* push.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = push.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		9C8A81E92A6196C300AEEFC4 = {
 			isa = PBXGroup;
 			children = (
+				9CA8C0752A640D1A00F40DF5 /* push.c */,
 				9C8A81FD2A61970000AEEFC4 /* elemtype.c */,
 				9C8A81FF2A61970000AEEFC4 /* elemtype.h */,
 				9C8A81FE2A61970000AEEFC4 /* minheap.c */,
@@ -132,6 +135,7 @@
 				9C8A82002A61970000AEEFC4 /* elemtype.c in Sources */,
 				9C8A81F62A6196C300AEEFC4 /* main.c in Sources */,
 				9C8A82012A61970000AEEFC4 /* minheap.c in Sources */,
+				9CA8C0762A640D1A00F40DF5 /* push.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
