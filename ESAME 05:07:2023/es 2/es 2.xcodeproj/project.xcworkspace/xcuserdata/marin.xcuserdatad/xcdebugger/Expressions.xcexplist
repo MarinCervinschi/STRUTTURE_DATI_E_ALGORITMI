@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "OptimalIllumination:optimal_illumination.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(bool (&amp;) [10]) *ret">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "OptimalIlluminationRec:optimal_illumination.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(bool (&amp;) [10]) *vccur">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

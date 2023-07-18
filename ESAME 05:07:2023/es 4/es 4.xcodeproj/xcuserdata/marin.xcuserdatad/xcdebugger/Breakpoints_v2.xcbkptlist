@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F5D82A93-706E-40DE-B80E-22A24D114563"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51F5E935-A04D-428D-A9A6-5999AD6ACEE6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "colored_trees.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "BiggestColoredTree(t)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "51F5E935-A04D-428D-A9A6-5999AD6ACEE6 - f2e63f20421a821b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BiggestColoredTree"
+                  moduleName = "es 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%204/colored_trees.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "51F5E935-A04D-428D-A9A6-5999AD6ACEE6 - f2e63f20421a821b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BiggestColoredTree"
+                  moduleName = "es 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%204/colored_trees.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6A83521-E464-40BA-B4E7-C163913E1C0E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "colored_trees.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "BiggestColoredTree(t)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "F6A83521-E464-40BA-B4E7-C163913E1C0E - f2e63f20421a8278"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BiggestColoredTree"
+                  moduleName = "es 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%204/colored_trees.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "F6A83521-E464-40BA-B4E7-C163913E1C0E - f2e63f20421a8259"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BiggestColoredTree"
+                  moduleName = "es 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%204/colored_trees.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "F6A83521-E464-40BA-B4E7-C163913E1C0E - f2e63f20421a823a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BiggestColoredTree"
+                  moduleName = "es 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%204/colored_trees.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "F6A83521-E464-40BA-B4E7-C163913E1C0E - f2e63f20421a82d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BiggestColoredTree"
+                  moduleName = "es 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%204/colored_trees.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE0EE446-5210-4293-93E5-006DADEED253"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "colored_trees.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "BiggestColoredTreeRec(t, ret, nodi_max, nodi)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "BE0EE446-5210-4293-93E5-006DADEED253 - ea27d2f2df88f6a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BiggestColoredTreeRec"
+                  moduleName = "es 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%204/colored_trees.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "BE0EE446-5210-4293-93E5-006DADEED253 - ea27d2f2df88f62b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BiggestColoredTreeRec"
+                  moduleName = "es 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%204/colored_trees.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "BE0EE446-5210-4293-93E5-006DADEED253 - ea27d2f2df88f6e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BiggestColoredTreeRec"
+                  moduleName = "es 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%204/colored_trees.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "BE0EE446-5210-4293-93E5-006DADEED253 - ea27d2f2df88f6c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BiggestColoredTreeRec"
+                  moduleName = "es 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%204/colored_trees.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "430D79BC-5D25-4D6F-AB4C-5FE2D5DD72F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "colored_trees.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "BiggestColoredTree(t)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

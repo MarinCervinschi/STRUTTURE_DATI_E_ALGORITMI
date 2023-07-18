@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F6D4E0FA-92EF-4102-A5AF-C9B4917734A6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5A058E0-4B9A-4ED9-B229-818232EC9A07"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pulce.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "CalcolaPercorso(start, n)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "B5A058E0-4B9A-4ED9-B229-818232EC9A07 - f8d6f76b780b278b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalcolaPercorso"
+                  moduleName = "es 3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%203/pulce.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "B5A058E0-4B9A-4ED9-B229-818232EC9A07 - f8d6f76b780cd871"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalcolaPercorso"
+                  moduleName = "es 3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%203/pulce.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "527BFA7D-5BBE-4516-BC04-EA7B2380A4CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "es 3/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D833177E-8BB2-4182-BD17-E0D493CF8F37"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pulce.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "CalcolaPercorso(start, n)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "D833177E-8BB2-4182-BD17-E0D493CF8F37 - f8d6f76b780cd958"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalcolaPercorso"
+                  moduleName = "es 3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%203/pulce.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "D833177E-8BB2-4182-BD17-E0D493CF8F37 - f8d6f76b780cda82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalcolaPercorso"
+                  moduleName = "es 3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%203/pulce.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "D833177E-8BB2-4182-BD17-E0D493CF8F37 - f8d6f76b780cdaed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalcolaPercorso"
+                  moduleName = "es 3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%203/pulce.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

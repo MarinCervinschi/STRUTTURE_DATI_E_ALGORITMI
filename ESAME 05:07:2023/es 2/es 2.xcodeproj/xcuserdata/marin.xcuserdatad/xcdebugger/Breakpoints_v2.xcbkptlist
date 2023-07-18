@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "490B579D-88E5-449D-912A-C5F0BF0C635C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2B92FD1-8C12-48F4-A3CF-8E2E4F6A0ED9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "optimal_illumination.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "OptimalIllumination(M, R, light, light_size)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "B2B92FD1-8C12-48F4-A3CF-8E2E4F6A0ED9 - 43de8b81aece1bc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OptimalIllumination"
+                  moduleName = "es 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%202/optimal_illumination.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "B2B92FD1-8C12-48F4-A3CF-8E2E4F6A0ED9 - 43de8b81aece1a1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OptimalIllumination"
+                  moduleName = "es 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%202/optimal_illumination.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "B2B92FD1-8C12-48F4-A3CF-8E2E4F6A0ED9 - 43de8b81aece1b27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OptimalIllumination"
+                  moduleName = "es 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%202/optimal_illumination.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "B2B92FD1-8C12-48F4-A3CF-8E2E4F6A0ED9 - 43de8b81aece18e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OptimalIllumination"
+                  moduleName = "es 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%202/optimal_illumination.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "B2B92FD1-8C12-48F4-A3CF-8E2E4F6A0ED9 - 43de8b81aece1991"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OptimalIllumination"
+                  moduleName = "es 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%202/optimal_illumination.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7BF3BF0-6F16-43BE-8F3C-26E28C81C7A1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "optimal_illumination.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "VerificaStradaIlluminata(light, vccur, size, M, R)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "C7BF3BF0-6F16-43BE-8F3C-26E28C81C7A1 - 94caebcd93150fed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VerificaStradaIlluminata"
+                  moduleName = "es 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%202/optimal_illumination.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "C7BF3BF0-6F16-43BE-8F3C-26E28C81C7A1 - 94caebcd93150e33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VerificaStradaIlluminata"
+                  moduleName = "es 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%202/optimal_illumination.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53A30248-FEE8-4B07-B7AA-A09033E6E88B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "optimal_illumination.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "OptimalIllumination(M, R, light, light_size)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "53A30248-FEE8-4B07-B7AA-A09033E6E88B - 43de8b81aece18c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OptimalIllumination"
+                  moduleName = "es 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%202/optimal_illumination.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "53A30248-FEE8-4B07-B7AA-A09033E6E88B - 43de8b81aece18e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OptimalIllumination"
+                  moduleName = "es 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%202/optimal_illumination.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "53A30248-FEE8-4B07-B7AA-A09033E6E88B - 43de8b81aece18ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OptimalIllumination"
+                  moduleName = "es 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%202/optimal_illumination.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "53A30248-FEE8-4B07-B7AA-A09033E6E88B - 43de8b81aece1991"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OptimalIllumination"
+                  moduleName = "es 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%202/optimal_illumination.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "53A30248-FEE8-4B07-B7AA-A09033E6E88B - 43de8b81aece19f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OptimalIllumination"
+                  moduleName = "es 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%202/optimal_illumination.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "53A30248-FEE8-4B07-B7AA-A09033E6E88B - 43de8b81aece1991"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OptimalIllumination"
+                  moduleName = "es 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%202/optimal_illumination.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "53A30248-FEE8-4B07-B7AA-A09033E6E88B - 43de8b81aece182f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OptimalIllumination"
+                  moduleName = "es 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%202/optimal_illumination.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "53A30248-FEE8-4B07-B7AA-A09033E6E88B - 43de8b81aece1953"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OptimalIllumination"
+                  moduleName = "es 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%202/optimal_illumination.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "53A30248-FEE8-4B07-B7AA-A09033E6E88B - 43de8b81aece1915"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OptimalIllumination"
+                  moduleName = "es 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Desktop/ESAME%2005:07:2023/es%202/optimal_illumination.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E0AC231-F98F-42D9-863C-87660E99ED82"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "optimal_illumination.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "OptimalIlluminationRec(M, R, light, light_size, ret, vccur, count, lampadine)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA1BFF18-A380-4428-B8B3-159188E48A40"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "optimal_illumination.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "OptimalIlluminationRec(M, R, light, light_size, ret, vccur, count, lampadine)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A30AD184-41CD-488A-B8AB-9807296E91FA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "optimal_illumination.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "OptimalIlluminationRec(M, R, light, light_size, ret, vccur, count, lampadine)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB6BE8A9-64EE-4E34-9F65-CC819A569207"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "optimal_illumination.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "OptimalIlluminationRec(M, R, light, light_size, ret, vccur, count, lampadine)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
