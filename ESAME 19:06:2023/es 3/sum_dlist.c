@@ -1,107 +1,75 @@
 #include "sum_dlist.h"
-#include "doublelist.h"
-#include <stdlib.h>
 
-Item *ListInvert(const Item * i1){
-    Item *i1_copy = NULL;
-    for (const Item *tmp = i1; tmp; tmp = tmp->next) {
-        i1_copy = DListInsertHead(&tmp->value, i1_copy);
-    }
-    return i1_copy;
-}
-int Rest(const Item *i1, const Item *i2){
-    int n1, n2;
-    if(!i1){
-        n1 = 0;
-    }else{
-        n1 = i1->value;
-    }
-    if(!i2){
-        n2 = 0;
-    }else{
-        n2 = i2->value;
+// This function copies the linked list pointed to by `i`.
+Item *DListCopy(const Item *i) {
+    // Create an empty list.
+    Item *list_copy = DListCreateEmpty();
+
+    // Iterate through the original list, adding each element to the copy.
+    for (; !DListIsEmpty(i); i = DListGetTail(i)) {
+        // Insert the element at the end of the copy list.
+        list_copy = DListInsertBack(list_copy, DListGetHeadValue(i));
     }
 
-    int ret = n1 + n2;
-    if(ret < 10){
-        return 0;
-    }
-    while (ret >= 10) {
-        ret /= 10;
-    }
-    
-    return ret;
-}
-int Num(const Item *i1, const Item *i2){
-    int n1, n2;
-    if(!i1){
-        n1 = 0;
-    }else{
-        n1 = i1->value;
-    }
-    if(!i2){
-        n2 = 0;
-    }else{
-        n2 = i2->value;
-    }
-
-    int ret = n1 + n2;
-    return ret % 10;
+    // Return the copy list.
+    return list_copy;
 }
 
-Item *DListSum(const Item *i1, const Item *i2){
-    if(DListIsEmpty(i1) && DListIsEmpty(i2)){
+// This function sums the two linked lists pointed to by `i1` and `i2`.
+Item* DListSum(const Item *i1, const Item *i2) {
+    // If both lists are empty, return an empty list.
+    if (!i1 && !i2) {
         return NULL;
     }
-    if(DListIsEmpty(i1)){
-        Item *ret = NULL;
-        for (const Item *tmp = i2; tmp; tmp = tmp->next) {
-            ret = DListInsertBack(ret, &tmp->value);
-        }
-        return ret;
+
+    // If `i1` is empty, return a copy of `i2`.
+    if (!i1) {
+        return DListCopy(i2);
     }
-    if(DListIsEmpty(i2)){
-        Item *ret = NULL;
-        for (const Item *tmp = i1; tmp; tmp = tmp->next) {
-            ret = DListInsertBack(ret, &tmp->value);
-        }
-        return ret;
+
+    // If `i2` is empty, return a copy of `i1`.
+    if (!i2) {
+        return DListCopy(i1);
     }
-    Item *ret = NULL;
-    int k = 0;
-    Item *i1_copy = ListInvert(i1);
-    
-    Item *i2_copy = ListInvert(i2);
-    
-    while (1) {
-        if (DListIsEmpty(i1_copy) && DListIsEmpty(i2_copy)) {
-            break;
-        }
-        k += Num(i1_copy, i2_copy);
-        
-        if(k < 10){
-            ret = DListInsertHead(&k, ret);
-            k = Rest(i1_copy, i2_copy);
-            if ( k != 0 && (!i1_copy->next && !i2_copy->next) ) {
-                ret = DListInsertHead(&k, ret);
-            }
-        }else{
-            int l = k /10;
-            k %= 10;
-            ret = DListInsertHead(&k, ret);
-            k = l;
-            if ( k != 0 && (!i1_copy->next && !i2_copy->next) ) {
-                ret = DListInsertHead(&k, ret);
-            }
-        }
-        
-        if(i1_copy != NULL){
-            i1_copy = i1_copy->next;
-        }
-        if(i2_copy != NULL){
-            i2_copy = i2_copy->next;
-        }
+    // Iterate `i1` and `i2` until the end of list
+    while (i1->next) {
+        i1 = i1->next;
     }
+    while (i2->next) {
+        i2 = i2->next;
+    }
+
+    // Initialize the result list and the carry.
+    Item *result = NULL;
+    ElemType carry = 0;
+
+    // Iterate through the two lists, adding the elements together and updating the carry.
+    while (i1 || i2 || carry) {
+        // Calculate the sum of the current elements and the carry.
+        ElemType sum = carry;
+
+        // If `i1` is not empty, add the value of the current element.
+        if (i1) {
+            sum += i1->value;
+            i1 = i1->prev;
+        }
+
+        // If `i2` is not empty, add the value of the current element.
+        if (i2) {
+            sum += i2->value;
+            i2 = i2->prev;
+        }
+
+        // Update the carry.
+        carry = sum / 10;
     
-    return ret;
+        // Update the sum.
+        sum %= 10;
+    
+        // Insert the current sum into the result list.
+        result = DListInsertHead(&sum, result);
+    }
+
+    // Return the result list.
+    return result;
 }

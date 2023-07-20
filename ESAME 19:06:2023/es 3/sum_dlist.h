@@ -2,6 +2,7 @@
 #define SUM_DLIST_H
 
 #include "doublelist.h"
+#include <stdlib.h>
 extern Item *DListSum(const Item *i1, const Item *i2);
 
 #endif /* SUM_DLIST_H */

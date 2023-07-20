@@ -3,22 +3,32 @@
 #include "elemtype.h"
 #include "doublelist.h"
 #include "sum_dlist.h"
-extern Item *ListLoad(const char *filename);
+Item *DListCreateFromVector(const ElemType *v, size_t v_size) {
+    Item *list = DListCreateEmpty();
+    for (size_t i = 0; i < v_size; ++i) {
+        list = DListInsertBack(list, &v[i]);
+    }
+    return list;
+}
+ 
 int main(void) {
-
-    Item *i1, *i2, *i3;
-
-    i1 = ListLoad("data_00.txt");
-    DListWriteStdout(i1);
+    ElemType v[] = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9};
+    size_t v_size = sizeof(v) / sizeof(ElemType);
+    const Item *list = DListCreateFromVector(v, v_size);
+    DListWriteStdout(list);
     
-    i2 = ListLoad("data_01.txt");
-    DListWriteStdout(i2);
+    printf("+\n");
     
-    i3 = DListSum(i1, i2);
-    DListWriteStdout(i3);
+    ElemType v1[] = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9};
+    size_t v1_size = sizeof(v1) / sizeof(ElemType);
+    const Item *list1 = DListCreateFromVector(v1, v1_size);
+    DListWriteStdout(list1);
     
-    DListDelete(i1);
-    DListDelete(i2);
-    DListDelete(i3);
+    printf("=\n");
+    
+    DListWriteStdout(DListSum(list, list1));
+    
+    
     return 0;
+    
 }
