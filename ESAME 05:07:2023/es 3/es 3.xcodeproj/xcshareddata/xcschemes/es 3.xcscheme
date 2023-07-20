@@ -35,7 +35,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/marin/Desktop/ESAME 05:07:2023/es 3"
+      customWorkingDirectory = "/Users/marin/Documents/STRUTTURE DATI E ALGORITMI/ESAME 05:07:2023/es 3"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"

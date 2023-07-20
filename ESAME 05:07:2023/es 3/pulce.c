@@ -7,7 +7,7 @@ const Item *SaltaIndietro(const Item *list, int num, size_t *salti, size_t n){
             return list;
         }
         if(!list->prev){
-            //salta indietro
+            //salta in avanti
             for (int j = i; j < num; ++j){
                 if(*salti >= n){
                     return list;
@@ -43,7 +43,7 @@ const Item* CalcolaPercorso(const Item *start, size_t n){
     if(!start){
         return NULL;
     }
-    if (!start->next) {
+    if (!start->next || !start->prev) {
         return start;
     }
     if(start->value == 0){
