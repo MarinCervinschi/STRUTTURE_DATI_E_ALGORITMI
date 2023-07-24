@@ -3,7 +3,12 @@ extern int Potenza(int a, int b);
 
 int main(void) {
     
-    printf("%d\n", Potenza(6, 2));
+    printf("0^0 = %d\n", Potenza(0, 0));
+    printf("0^3 = %d\n", Potenza(0, 3));
+    printf("5^0 = %d\n", Potenza(5, 0));
+    printf("2^5 = %d\n", Potenza(2, 5));
+
+    
     
     return 0;
 }
