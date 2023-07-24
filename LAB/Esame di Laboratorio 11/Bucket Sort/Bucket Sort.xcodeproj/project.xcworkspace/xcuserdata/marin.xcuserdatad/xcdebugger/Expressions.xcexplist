@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ConcatList:list.c">
+      </ContextState>
+      <ContextState
+         contextName = "BucketSort:bucketsort.c">
+      </ContextState>
+      <ContextState
+         contextName = "ListInsertBack:list.c">
+      </ContextState>
+      <ContextState
+         contextName = "ListInsert:bucketsort.c">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
