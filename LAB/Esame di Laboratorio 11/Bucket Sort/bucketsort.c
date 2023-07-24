@@ -26,9 +26,10 @@ Item* BucketSort(Item *l){
     }
 
     Item* tmp = l;
-    while (ret) {
-        tmp->value = ret->value;
-        ret = ret->next;
+    Item *tmp_ret = ret;
+    while (tmp_ret) {
+        tmp->value = tmp_ret->value;
+        tmp_ret = tmp_ret->next;
         tmp = tmp->next;
     }
     ListDelete(ret);
