@@ -1,19 +1,23 @@
-#include <stdio.h>
-#include "elemtype.h"
 #include "list.h"
-#include <stdlib.h>
 #include "shift.h"
-extern Item *ListLoad(const char *filename);
-int main(void) {
+#include <stdlib.h>
 
-    Item *i1;
-
-    i1 = ListLoad("data_00.txt");
-    ListWriteStdout(i1);
-    
-    i1 = ShiftN(i1, 4);
-    ListWriteStdout(i1);
-    
-    ListDelete(i1);
-    return 0;
+Item *ListCreateFromVector(const int *v, size_t v_size) {
+    Item *list = ListCreateEmpty();
+    for (size_t i = 0; i < v_size; ++i) {
+        list = ListInsertBack(list, &v[i]);
+    }
+    return list;
 }
+ 
+int main(void) {
+    int v[] = { 0, 1, 2, 3,4,5,6,7,8};
+    size_t v_size = sizeof(v) / sizeof(int);
+    Item *list = ListCreateFromVector(v, v_size);
+    ListWriteStdout(list);
+    
+    ListWriteStdout(ShiftN(list, 24));
+    ListDelete(list);
+    return EXIT_SUCCESS;
+}
+    
