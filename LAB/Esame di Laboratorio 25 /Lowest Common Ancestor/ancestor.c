@@ -2,25 +2,16 @@
 #include <stdlib.h>
 #include <stdbool.h>
 bool TreeContainsNode(const Node* tree, const Node* node){
-    bool verifica = false;
     if(!tree|| !node){
-        return verifica;
+        return false;
     }
-    
     if(node == tree){
         return true;
     }
-    
-    if(!verifica){
-        verifica = TreeContainsNode(tree->left, node);
-    }
-    if(!verifica){
-        verifica = TreeContainsNode(tree->right, node);
-    }
-    return verifica;
+    return TreeContainsNode(tree->left, node) || TreeContainsNode(tree->right, node);
 }
 static void Rec(const Node *t, const Node *n1, const Node *n2, const Node **ret){
-    if(t == NULL){
+    if(!t){
         return;
     }
     
