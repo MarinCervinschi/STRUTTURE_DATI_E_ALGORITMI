@@ -9,10 +9,14 @@ Item *ShiftN(Item *list, size_t n){
     if(ListIsEmpty(list) || !list->next){
         return list;
     }
-    size_t len = Len(list);
+    size_t len = Len(list)-1;
     
     if(n >= len){
-        n %= len;
+        if(n % len == 0){
+            n = len;
+        }else{
+            n %= len;
+        }
     }
     
     Item *head = list;
