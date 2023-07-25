@@ -1,52 +1,46 @@
 #include "reverse.h"
 #include <stdlib.h>
-int ListLenght(Item *list){
-    Item *tmp = list;
-    int count = 0;
-    while (tmp) {
-        ++count;
-        tmp = tmp->next;
+int ListLength(Item *list){
+    if(!list){
+        return 0;
     }
-    return count-1;
+    return ListLength(list->next) + 1;
 }
 Item* Reverse(Item *list, int right){
     if (right <= 1 || ListIsEmpty(list)) {
         return list;
     }
     
-    int len = ListLenght(list);
-    if(right > len){
-        right = len +1;
+    int len = ListLength(list);
+    if(right >= len){
+        right = len;;
     }
 
-    
-    for (int j = 1; j != right; ++j) {
-        
-        Item *next = NULL;
-        Item *curr = list;
+    Item *head = list;
+    int done = 0;
+    while (!done) {
+        done = 1;
         Item *prev = NULL;
-        
-        for (int i = 0; i != right-j; ++i) {
-            next = curr->next;
+        Item *curr = head;
+        for (int i = 0; i < right-1 && curr->next; ++i) {
+            Item *foll = curr->next;
+            Item *follfoll = foll->next;
             
-            curr->next = next->next;
-            next->next = curr;
-            if(prev == NULL){
-                prev = next;
-                list = prev;
+            if(!prev){
+                head = foll;
+                
+                curr->next = follfoll;
+                foll->next = curr;
             }else{
-                Item *tmp1 = list;
-                while (tmp1) {
-                    if(next->next->value == tmp1->next->value){
-                        prev = next;
-                        tmp1->next = prev;
-                        break;
-                    }
-                    tmp1 = tmp1->next;
-                }
+                prev->next = foll;
+                curr->next = follfoll;
+                foll->next = curr;
             }
+            prev = foll;
+            done = 0;
         }
+        --right;
     }
     
-    return list;
+    return head;
 }

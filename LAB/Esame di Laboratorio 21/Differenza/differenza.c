@@ -16,7 +16,7 @@ ElemType Num(int s,int m, int *p){
         *p = 1;
         s += 10;
     }
-    return (s - m)+'0';
+    return (s - m) + '0';
 }
 Item *Differenza(const Item *i1, const Item *i2){
     if(!i1 && !i2){
@@ -38,20 +38,15 @@ Item *Differenza(const Item *i1, const Item *i2){
         ElemType s =0, m = 0;
         if(i1){
             s = atoi(&i1->value);
+            i1 = i1->next;
         }
         if(i2){
             m = atoi(&i2->value);
+            i2= i2->next;
         }
         
         const ElemType iter = Num(s, m, &p);
         diff = ListInsertBack(diff, &iter);
-        
-        if(i1){
-            i1 = i1->next;
-        }
-        if(i2){
-            i2= i2->next;
-        }
     }
     return diff;
 }
