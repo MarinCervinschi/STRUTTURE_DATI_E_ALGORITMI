@@ -16,12 +16,10 @@ int main(void) {
                                                  TreeCreateRoot(e + 7, NULL, NULL)));
         
         
-        Node *n1 =TreeCreateRoot(e + 8,NULL,NULL);
-        Node *n2 = TreeCreateRoot(e + 7, NULL, NULL);
+       
         
-        const Node *ret;
-        ret = LowestCommonAncestor(t1, n1, n2);
-        
+
+        printf("%d", LowestCommonAncestor(t1, t1->left->left, t1->left->right)->value);
         TreeDelete(t1);
     }
     

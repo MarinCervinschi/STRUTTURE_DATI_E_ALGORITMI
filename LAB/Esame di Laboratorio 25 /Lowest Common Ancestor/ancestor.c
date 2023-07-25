@@ -1,27 +1,21 @@
-#include <stdio.h>
 #include "tree.h"
 #include <stdlib.h>
-#include "elemtype.h"
 #include <stdbool.h>
 bool TreeContainsNode(const Node* tree, const Node* node){
     bool verifica = false;
-   
-    if(tree == NULL || node == NULL){
+    if(!tree|| !node){
         return verifica;
     }
-    if(node->value == tree->value){
+    
+    if(node == tree){
         return true;
     }
-    if(verifica){
-        return true;
+    
+    if(!verifica){
+        verifica = TreeContainsNode(tree->left, node);
     }
-    verifica = TreeContainsNode(tree->left, node);
-    if(verifica){
-        return true;
-    }
-    verifica = TreeContainsNode(tree->right, node);
-    if(verifica){
-        return true;
+    if(!verifica){
+        verifica = TreeContainsNode(tree->right, node);
     }
     return verifica;
 }
