@@ -14,8 +14,8 @@
             filePath = "insertionsort.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
             landmarkName = "InsertionSort(v, v_size)"
             landmarkType = "9">
             <Locations>
