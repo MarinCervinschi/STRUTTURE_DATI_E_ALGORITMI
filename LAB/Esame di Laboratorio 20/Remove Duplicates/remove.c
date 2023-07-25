@@ -19,8 +19,13 @@ Item *RemoveDuplicates(Item* i){
     for (Item *tmp = i->next; tmp; tmp = tmp->next) {
         if(ElemCompare(&tmp->value, &head->value) == 0){
             head->next = FindNext(tmp);
-            tmp->next = NULL;
-            ListDelete(tmp);
+            
+            while (tmp != head->next) {
+                Item *j = tmp;
+                tmp = tmp->next;
+                free(j);
+            }
+            
             tmp = head;
         }else{
             head = head->next;

@@ -9,7 +9,7 @@ Item *Copia(const Item *i1){
     return tmp;
 }
 
-ElemType Num(int s,int m, int *p){
+const ElemType Num(int s,int m, int *p){
     s -= *p;
     *p = 0;
     if(s < m){
