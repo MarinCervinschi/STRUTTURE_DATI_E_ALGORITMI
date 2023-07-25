@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Selection Sort è la seguente:
+
+Tempo: O(n^2) - L'algoritmo esegue due cicli annidati. Il ciclo esterno si ripete n volte, e il ciclo interno, che trova l'elemento più piccolo, si ripete anche n volte nel caso peggiore.
+Spazio: O(1) - L'algoritmo utilizza una quantità costante di spazio aggiuntivo per le variabili temporanee, indipendentemente dalla dimensione dell'input.
+L'algoritmo di Selection Sort è inefficiente su array di grandi dimensioni, poiché richiede un numero quadrato di confronti e scambi. Tuttavia, è semplice da implementare e può essere utile per piccoli array o come punto di partenza per comprendere altri algoritmi di ordinamento più efficienti.

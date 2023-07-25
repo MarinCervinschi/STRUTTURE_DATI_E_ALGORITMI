@@ -1,0 +1,5 @@
+La complessità dell'algoritmo di Heap Sort è la seguente:
+
+Tempo: La costruzione iniziale del Max Heap richiede O(n) operazioni. Successivamente, ogni estrazione del massimo elemento e il ripristino della proprietà del Max Heap richiede O(log n) operazioni. Poiché queste operazioni vengono ripetute "n" volte, la complessità complessiva dell'Heap Sort è O(n log n).
+
+Spazio: L'Heap Sort ha una complessità di spazio O(1) in loco, poiché il sorting viene effettuato direttamente sull'array di input senza l'utilizzo di spazio aggiuntivo, oltre a una quantità costante di variabili temporanee.

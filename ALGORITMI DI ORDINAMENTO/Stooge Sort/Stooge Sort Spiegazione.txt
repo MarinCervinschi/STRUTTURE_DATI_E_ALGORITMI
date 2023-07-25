@@ -1,0 +1,5 @@
+L'algoritmo Stooge Sort può essere riassunto come segue:
+1) se il primo elemento è maggiore dell'ultimo, scambiare i due elementi;
+2) se il vettore è composto da tre o più elementi, ordinare i primi 2/3, poi gli ultimi 2/3, infine di nuovo i primi 2/3 del vettore usando lo stooge sort ricorsivamente.
+
+In tutti i casi, i 2/3 vanno arrotondati per eccesso, ad esempio se il vettore è composto da 7elementi, [7 * 2/3] =5.

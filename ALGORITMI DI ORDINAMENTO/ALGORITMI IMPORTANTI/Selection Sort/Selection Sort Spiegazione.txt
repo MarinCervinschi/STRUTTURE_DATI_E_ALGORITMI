@@ -1,0 +1,9 @@
+L'algoritmo di ordinamento "Selection Sort" è un semplice algoritmo di ordinamento basato sulla selezione iterativa dell'elemento più piccolo (o più grande) e il suo posizionamento nella posizione corretta. L'algoritmo lavora in modo simile a come si organizza un mazzo di carte selezionando la carta più piccola e collocandola in cima.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Selection Sort:
+
+Trova l'elemento più piccolo nell'array.
+Scambia l'elemento più piccolo con l'elemento nella prima posizione dell'array.
+Trova l'elemento più piccolo nell'array, escludendo l'elemento già ordinato nella prima posizione.
+Scambia l'elemento più piccolo con l'elemento nella seconda posizione dell'array.
+Continua questo processo, escludendo gli elementi già ordinati, finché tutti gli elementi non sono stati posizionati nella posizione corretta.

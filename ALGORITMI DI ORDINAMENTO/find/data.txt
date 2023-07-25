@@ -5,106 +5,22 @@ Bead Sort
 Bidirectional Insertion
 Bin Sort
 Bird Sort
-Bitonic Merge Sort
 Bitonic Sort
-Black Hole Sort
 Block Sort
 Book Sort
-Bow Sort
-Bread Sort
 Brick Sort
 Bubble Sort
-Bucket Sort
-Car Sort
 Card Sort
-Carpenter's Sort
 Chair Sort
-Chalkboard Sort
 Coat Hanger Sort
-Cocktail Bubble Sort
 Cocktail Sort
-Color Sort
-Comb Sort
-Countdown Sort
 Counting Sort
-Crusher Sort
-Cube Sort
-Curtain Sort
-Cycle Selection Sort
-Cycle Sort
-Dagger Sort
-Dice Sort
-Drum Sort
-Elevator Sort
-Escalator Sort
-Exchange Sort
-Fan Sort
-Fibonacci Sort
-Fish Sort
-Fist Sort
-Game of Life Sort
-Gapped Insertion Sort
-Garden Sort
-Giraffe Sort
-Globe Sort
-Gnome Shell Sort
 Gnome Sort
-Gravity Sort
-Grid Sort
-Guided Missile Sort
-Hat Sort
 Heap Sort
-Hermit Crab Sort
-Hippogriff Sort
 Insertion Sort
-Iron Sort
-Kiss Sort
-Ladder Sort
-Lizard Sort
-Loop Sort
-Mad Sort
-Mallet Sort
-Medal Sort
 Merge Sort
-Minestrone Sort
-Missile Sort
-Moth Sort
-Mountain Sort
-Odd-Even Sort
-Owl Sort
 Pancake Sort
-Parachute Sort
-Permutation Sort
-Pigeonhole Sort
-Plate Sort
 Quicksort
-Radix Sort
-Razor Sort
-Reflector Sort
-Rope Sort
-Rotating Brick Sort
-Round-Robin Sort
-Seagull Sort
-Secret Room Sort
 Selection Sort
-Shadow Man Sort
-Shaker Sort
-Shell Sort
-Siren Sort
-Sleep Sort
-Snail Sort
-Snowflake Sort
-Stone Sort
-Stooge Shell Sort
 Stooge Sort
-Strand Sort
-Suitcase Sort
-Ternary Tree Sort
-Tim Sort
-Tower Sort
-Tree Sort
-Trench Sort
-Vase Sort
-Waterfall Sort
-Wave Sort
-Chicken Sort
+Chicken Sort 

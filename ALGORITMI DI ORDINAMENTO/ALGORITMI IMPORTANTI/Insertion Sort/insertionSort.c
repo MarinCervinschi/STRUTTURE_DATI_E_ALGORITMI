@@ -1,19 +1,18 @@
-#include <stdio.h>
-
-void insertionSort(int arr[], int size) {
-    int i, j, key;
-
-    for (i = 1; i < size; i++) {
-        key = arr[i];
-        j = i - 1;
-
-        // Sposta gli elementi maggiori di key dietro di una posizione
-        while (j >= 0 && arr[j] > key) {
-            arr[j + 1] = arr[j];
-            j--;
+#include <stdlib.h> // for size_t
+void ElemSwap(int *a, int *b){
+    int tmp = *a;
+    *a = *b;
+    *b = tmp;
+}
+void InsertionSort(int *v, size_t v_size){
+    if (!v || v_size < 2) {
+        return;
+    }
+    for (size_t i = 1; i < v_size; ++i) {
+        for (size_t j = 0; j < i; ++j) {
+            if(v[j] > v[i]){
+                ElemSwap(&v[j], &v[i]);
+            }
         }
-
-        // Inserisci la chiave nella sua posizione corretta
-        arr[j + 1] = key;
     }
 }

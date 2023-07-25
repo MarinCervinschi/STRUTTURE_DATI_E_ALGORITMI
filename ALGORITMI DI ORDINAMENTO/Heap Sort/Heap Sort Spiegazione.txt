@@ -1,0 +1,7 @@
+L'algoritmo di ordinamento Heap Sort è un efficiente algoritmo di ordinamento basato sulla struttura dati del Max Heap (albero binario ordinato in modo che il valore di ogni nodo sia maggiore o uguale a quello dei suoi figli). Heap Sort sfrutta le proprietà del Max Heap per ottenere un ordinamento crescente dell'array.
+
+Ecco una spiegazione di alto livello dell'algoritmo di Heap Sort:
+
+Costruisci un Max Heap a partire dall'array di input.
+Ripetutamente estrai il massimo elemento (la radice del Max Heap) e lo posiziona in fondo all'array.
+Riduci la dimensione del Max Heap di 1 e ripristina la proprietà del Max Heap chiamando la procedura Heapify sulla radice (elemento rimasto più in alto).
