@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C0552AB2A6FE8630010E07E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C0552AA2A6FE8630010E07E /* main.c */; };
+		9C05530A2A6FE9510010E07E /* euclide.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C0553092A6FE9510010E07E /* euclide.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		9C0552A72A6FE8630010E07E /* Euclide */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Euclide; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C0552AA2A6FE8630010E07E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9C0553092A6FE9510010E07E /* euclide.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = euclide.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		9C05529E2A6FE8630010E07E = {
 			isa = PBXGroup;
 			children = (
+				9C0553092A6FE9510010E07E /* euclide.c */,
 				9C0552A92A6FE8630010E07E /* Euclide */,
 				9C0552A82A6FE8630010E07E /* Products */,
 			);
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C0552AB2A6FE8630010E07E /* main.c in Sources */,
+				9C05530A2A6FE9510010E07E /* euclide.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

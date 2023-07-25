@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "43ADCEF7-5264-4B66-A66E-75D118916353"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F877561B-FE9A-44A3-B3A7-5ED312FC04EE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mediano.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "Mediano(t)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "F877561B-FE9A-44A3-B3A7-5ED312FC04EE - 9d9bea7d25ab3c71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mediano"
+                  moduleName = "Mediano"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2010/Mediano/mediano.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "F877561B-FE9A-44A3-B3A7-5ED312FC04EE - 9d9bea7d25ab3cb3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mediano"
+                  moduleName = "Mediano"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2010/Mediano/mediano.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "F877561B-FE9A-44A3-B3A7-5ED312FC04EE - 9d9bea7d25ab3cd4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mediano"
+                  moduleName = "Mediano"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2010/Mediano/mediano.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F05E37F8-02B5-45E3-98F7-205E0EC7BA46"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mediano.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "MedianoRec(t, index_mediano, index, mediano)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6FE0128-976B-47F0-B31B-21B921EED4F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mediano/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

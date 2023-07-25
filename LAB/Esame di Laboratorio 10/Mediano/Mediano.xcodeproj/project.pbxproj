@@ -10,6 +10,7 @@
 		9C0552F72A6FE8950010E07E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C0552F62A6FE8950010E07E /* main.c */; };
 		9C0553012A6FE8D80010E07E /* elemtype.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C0552FE2A6FE8D80010E07E /* elemtype.c */; };
 		9C0553022A6FE8D80010E07E /* tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C0552FF2A6FE8D80010E07E /* tree.c */; };
+		9C0553122A6FF6360010E07E /* mediano.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C0553112A6FF6360010E07E /* mediano.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		9C0552FE2A6FE8D80010E07E /* elemtype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = elemtype.c; sourceTree = "<group>"; };
 		9C0552FF2A6FE8D80010E07E /* tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tree.c; sourceTree = "<group>"; };
 		9C0553002A6FE8D80010E07E /* elemtype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elemtype.h; sourceTree = "<group>"; };
+		9C0553112A6FF6360010E07E /* mediano.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mediano.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		9C0552EA2A6FE8950010E07E = {
 			isa = PBXGroup;
 			children = (
+				9C0553112A6FF6360010E07E /* mediano.c */,
 				9C0552FE2A6FE8D80010E07E /* elemtype.c */,
 				9C0553002A6FE8D80010E07E /* elemtype.h */,
 				9C0552FF2A6FE8D80010E07E /* tree.c */,
@@ -132,6 +135,7 @@
 				9C0553022A6FE8D80010E07E /* tree.c in Sources */,
 				9C0553012A6FE8D80010E07E /* elemtype.c in Sources */,
 				9C0552F72A6FE8950010E07E /* main.c in Sources */,
+				9C0553122A6FF6360010E07E /* mediano.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

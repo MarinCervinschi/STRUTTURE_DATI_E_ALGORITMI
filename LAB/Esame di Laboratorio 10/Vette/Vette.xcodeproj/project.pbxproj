@@ -10,6 +10,7 @@
 		9C0552E42A6FE8890010E07E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C0552E32A6FE8890010E07E /* main.c */; };
 		9C0553072A6FE8F00010E07E /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C0553032A6FE8F00010E07E /* list.c */; };
 		9C0553082A6FE8F00010E07E /* elemtype.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C0553042A6FE8F00010E07E /* elemtype.c */; };
+		9C0553102A6FF4AE0010E07E /* vette.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C05530F2A6FF4AE0010E07E /* vette.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		9C0553042A6FE8F00010E07E /* elemtype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = elemtype.c; sourceTree = "<group>"; };
 		9C0553052A6FE8F00010E07E /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
 		9C0553062A6FE8F00010E07E /* elemtype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elemtype.h; sourceTree = "<group>"; };
+		9C05530F2A6FF4AE0010E07E /* vette.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vette.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		9C0552D72A6FE8890010E07E = {
 			isa = PBXGroup;
 			children = (
+				9C05530F2A6FF4AE0010E07E /* vette.c */,
 				9C0553042A6FE8F00010E07E /* elemtype.c */,
 				9C0553062A6FE8F00010E07E /* elemtype.h */,
 				9C0553032A6FE8F00010E07E /* list.c */,
@@ -129,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C0553102A6FF4AE0010E07E /* vette.c in Sources */,
 				9C0552E42A6FE8890010E07E /* main.c in Sources */,
 				9C0553082A6FE8F00010E07E /* elemtype.c in Sources */,
 				9C0553072A6FE8F00010E07E /* list.c in Sources */,

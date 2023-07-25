@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E30C5AD6-63CB-4347-8093-6B2D1E52A0A5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0A22CDA-8086-4652-89DD-6ACBBCC885EB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "regole.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "Regole(r)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "D0A22CDA-8086-4652-89DD-6ACBBCC885EB - 24f5c439c332498"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Regole"
+                  moduleName = "Regole"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2010/Regole/regole.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "D0A22CDA-8086-4652-89DD-6ACBBCC885EB - 24f5c439c3325e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Regole"
+                  moduleName = "Regole"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2010/Regole/regole.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F781608-A436-4A9D-BF7B-DDE668AA9F1E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "regole.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "RegoleRec(r, n, v_curr, count)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "6F781608-A436-4A9D-BF7B-DDE668AA9F1E - dc1586b6897da916"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RegoleRec"
+                  moduleName = "Regole"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2010/Regole/regole.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "6F781608-A436-4A9D-BF7B-DDE668AA9F1E - dc1586b6897daeb3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RegoleRec"
+                  moduleName = "Regole"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marin/Documents/STRUTTURE%20DATI%20E%20ALGORITMI/LAB/Esame%20di%20Laboratorio%2010/Regole/regole.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10AC033B-98C3-4C6F-9110-3B8B8DBCFC35"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "regole.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "RegoleRec(r, n, v_curr, count)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
