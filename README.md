@@ -1,3 +1,10 @@
+
+<div align="left">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=MarinCervinschi.StruttureDatiEAlgoritmi&"  />
+</div>
+
+###
+
 # Data Structures and Algorithms
 
 **Authors**: Maurizio Vincini, Federico Bolelli
